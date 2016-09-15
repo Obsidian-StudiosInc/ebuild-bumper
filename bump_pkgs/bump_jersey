@@ -1,0 +1,19 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="jersey-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	guava
+	core-common
+	core-client
+	core-server
+	container-servlet-core
+	media-multipart
+	security-oauth1-signature
+	security-oauth1-client
+	security-oauth1-server
+)
