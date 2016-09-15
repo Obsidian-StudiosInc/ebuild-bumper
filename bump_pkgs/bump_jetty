@@ -1,0 +1,26 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="jetty-"
+DEPS="jetty-alpn-api"
+
+#Packages, order matters
+PKGS=(
+	util
+	continuation
+	http
+	io
+	jmx
+	xml
+	server
+	alpn-client
+	alpn-server
+	security
+	jndi
+	rewrite
+	servlet
+	webapp
+	plus
+	annotations
+)
