@@ -108,8 +108,10 @@ merge_deps() {
 	# Emerge needed deps since using O/oneshot
 	local pkg
 	for pkg in ${DEPS}; do
-		[[ ! -d /usr/share/${pkg}/ ]] && \
+		if [[ ! -d /usr/share/${pkg}/ ]]; then
 			sudo emerge -qv ${pkg}
+			[[ $? -ne 0 ]] && exit 1
+		fi
 	done
 }
 
@@ -132,7 +134,6 @@ bump() {
 		fi
 		git add .
 		repoman || exit 1
-#		[[ $? -ne 0 ]] && exit 1
 		repoman commit -m \
 			"${CAT}/${my_pn}: Bumped to latest version" \
 			|| exit 1
