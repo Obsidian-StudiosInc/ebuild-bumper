@@ -5,7 +5,7 @@
 #
 # Distributed under the terms of The GNU Public License v3.0 (GPLv3)
 
-VERSION="Version 0.1"
+VERSION="Version 0.2"
 
 help() {
         echo "Usage: ${0} [OPTION...]
@@ -18,6 +18,7 @@ Distributed under the terms of The GNU Public License v3.0 (GPLv3)
 
  Global Options:
   -c, --clean                Clean/remove old version
+  -C, --clean-all            Clean/remove all old versions
   -f, --file                 File to source for package specific variables
   -n, --new-version          New package version string, numeric or
                              alpha/numeric
@@ -49,6 +50,10 @@ do
 	case "$1" in
 		-c | --clean)
 			CLEAN="true"
+			shift
+			;;
+		-C | --clean-all)
+			CLEAN_ALL="true"
 			shift
 			;;
 		-f | --file)
@@ -97,13 +102,6 @@ do
 	esac
 done
 
-
-
-[[ ! ${PKGS} ]] && help "Missing packages to bump, package file?" 1
-[[ ! ${NPV} ]] && help "Missing new package version" 1
-[[ ! ${OPV} ]] && help "Missing old/current package version" 1
-[[ ! ${RESUME} ]] && RESUME=0
-
 merge_deps() {
 	# Emerge needed deps since using O/oneshot
 	local pkg
@@ -140,8 +138,44 @@ bump() {
 	done
 }
 
-merge_deps
-bump
+clean() {
+	# Clean packages, order matters
+	local pkg
+	local RPKGS=( $( echo ${PKGS[@]} | tac -s ' ' ) )
+	for pkg in ${RPKGS[@]:${RESUME}}; do
+		local my_pn="${BASE}${pkg}"
+
+		cd ${REPO}/${CAT}/${my_pn}/
+
+		# Find all ebuilds, sorted, in array
+		local EBUILDS=( $( ls *ebuild | sort -Vr ) )
+
+		[[ ${#EBUILDS[@]} -le 1 ]] && continue
+
+		# Remove all but the first
+		for ebuild in ${EBUILDS[@]:1}; do
+			git rm ${ebuild}
+		done
+
+		ebuild ${EBUILDS[@]:0:1} digest
+
+		repoman || exit 1
+
+		repoman commit -m "${CAT}/${my_pn}: Cleaning old version(s)"
+	done
+}
+
+[[ ! ${PKGS} ]] && help "Missing packages to bump, package file?" 1
+[[ ! ${RESUME} ]] && RESUME=0
+
+if [[ ${CLEAN_ALL} ]]; then
+	clean
+else
+	[[ ! ${NPV} ]] && help "Missing new package version" 1
+	[[ ! ${OPV} ]] && help "Missing old/current package version" 1
+
+	merge_deps
+	bump
+fi
 
 exit 0
-
