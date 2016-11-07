@@ -1,0 +1,15 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="slf4j-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	api
+	ext
+	log4j12
+	nop
+	simple
+)
