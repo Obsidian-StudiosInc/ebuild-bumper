@@ -62,13 +62,13 @@ do
 			shift 2
 			;;
 		-n | --new-version)
-			[[ -z ${2} ]] && help "Missing new kernel version" 1
+			[[ -z ${2} ]] && help "Missing new ebuild version" 1
 			NPV=${2}
 			shift 2
 			;;
 		-o | --old-version)
 			[[ -z ${2} ]] && \
-				help "Missing old/current kernel version" 1
+				help "Missing old/current ebuild version" 1
 			OPV=${2}
 			shift 2
 			;;
