@@ -121,8 +121,20 @@ bump() {
 		local my_p="${my_pn}-${NPV}"
 
 		cd ${REPO}/${CAT}/${my_pn}/
-		pwd
-		cp -v ${my_pn}-${OPV}.ebuild ${my_p}.ebuild || exit 1
+		[[ ${VERBOSE} ]] && pwd
+
+		# if bumped skip
+		[[ -e ${my_p}.ebuild ]] && continue
+
+		# if 9999 exists create symlink, copy otherwise
+		if [[ -f ${my_pn}-9999.ebuild ]]; then
+			ln -s ${VERBOSE} ${my_pn}-9999.ebuild ${my_p}.ebuild \
+				|| exit 1
+		else
+			cp ${VERBOSE} ${my_pn}-${OPV}.ebuild ${my_p}.ebuild \
+				|| exit 1
+		fi
+
 		ebuild ${my_p}.ebuild digest
 		sudo emerge -qvO1 =${my_p}
 		[[ $? -ne 0 ]] && exit 1
