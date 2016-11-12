@@ -1,0 +1,19 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE=""
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+        libg
+        bndlib
+	osgi-impl-bundle-repoindex-api
+	osgi-impl-bundle-repoindex-lib
+	osgi-impl-bundle-repoindex-cli
+	aqute-remote
+        aqute-repository
+        aqute-resolve
+	bnd
+)
