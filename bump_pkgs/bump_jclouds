@@ -1,0 +1,19 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="jclouds-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	core
+	scriptbuilder
+	compute
+	drivers-log4j
+	drivers-slf4j
+	drivers-jsch
+	drivers-sshj
+	drivers-okhttp
+	drivers-bouncycastle
+)
