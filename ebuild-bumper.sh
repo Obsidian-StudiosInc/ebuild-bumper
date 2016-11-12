@@ -164,8 +164,10 @@ clean() {
 
 		[[ ${#EBUILDS[@]} -le 1 ]] && continue
 
-		# Remove all but the first
-		for ebuild in ${EBUILDS[@]:1}; do
+		local start=1
+		[[ ${EBUILDS[@]} == *"9999"* ]] && let start=2
+
+		for ebuild in ${EBUILDS[@]:${start}}; do
 			git rm ${ebuild}
 		done
 
