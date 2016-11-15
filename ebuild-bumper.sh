@@ -160,12 +160,15 @@ clean() {
 		cd ${REPO}/${CAT}/${my_pn}/
 
 		# Find all ebuilds, sorted, in array
-		local EBUILDS=( $( ls *ebuild | sort -Vr ) )
+		local EBUILDS=( $( ls *ebuild | LC_COLLATE=C sort -t. -k3 ) )
 
 		[[ ${#EBUILDS[@]} -le 1 ]] && continue
 
 		local start=1
-		[[ ${EBUILDS[@]} == *"9999"* ]] && let start=2
+		if [[ ${EBUILDS[@]} == *"9999"* ]]; then
+			[[ ${#EBUILDS[@]} -eq 2 ]] && continue
+			let start=2
+		fi
 
 		for ebuild in ${EBUILDS[@]:${start}}; do
 			git rm ${ebuild}
