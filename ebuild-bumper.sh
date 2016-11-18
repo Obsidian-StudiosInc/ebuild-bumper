@@ -164,9 +164,6 @@ clean() {
 		local EBUILDS=( $( ls *ebuild | \
 			LC_COLLATE=C sort ${sort_args} ) )
 
-		echo ${EBUILDS[@]}
-		exit
-
 		[[ ${#EBUILDS[@]} -le 1 ]] && continue
 
 		local start=1
