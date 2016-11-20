@@ -10,6 +10,7 @@ PKGS=(
 	core
 	scriptbuilder
 	compute
+	loadbalancer
 	drivers-log4j
 	drivers-slf4j
 	drivers-jsch
