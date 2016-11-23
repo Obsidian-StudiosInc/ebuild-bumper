@@ -19,6 +19,7 @@ PKGS=(
 	alpn-server
 	security
 	jaas
+	jaspi
 	jndi
 	rewrite
 	servlet
