@@ -13,6 +13,7 @@ PKGS=(
 	io
 	jmx
 	xml
+	client
 	server
 	alpn-client
 	alpn-server
