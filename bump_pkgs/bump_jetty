@@ -15,6 +15,7 @@ PKGS=(
 	xml
 	client
 	server
+	monitor
 	alpn-client
 	alpn-server
 	security
