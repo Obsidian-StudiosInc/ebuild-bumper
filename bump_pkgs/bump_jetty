@@ -18,6 +18,7 @@ PKGS=(
 	server
 	monitor
         proxy
+	servlets
 	alpn-client
 	alpn-server
 	security
