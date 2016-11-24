@@ -29,4 +29,5 @@ PKGS=(
 	plus
 	annotations
 	quickstart
+	runner
 )
