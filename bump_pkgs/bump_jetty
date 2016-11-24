@@ -16,6 +16,7 @@ PKGS=(
 	client
 	server
 	monitor
+        proxy
 	alpn-client
 	alpn-server
 	security
