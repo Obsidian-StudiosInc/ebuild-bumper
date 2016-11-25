@@ -16,6 +16,7 @@ PKGS=(
 	xml
 	client
 	server
+	http-spi
 	monitor
         proxy
 	servlets
