@@ -23,6 +23,7 @@ PKGS=(
 	alpn-client
 	alpn-server
 	http2-hpack
+	http2-common
 	security
 	jaas
 	jaspi
