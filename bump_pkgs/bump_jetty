@@ -22,6 +22,7 @@ PKGS=(
 	servlets
 	alpn-client
 	alpn-server
+	http2-hpack
 	security
 	jaas
 	jaspi
