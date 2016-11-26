@@ -25,6 +25,7 @@ PKGS=(
 	http2-hpack
 	http2-common
 	http2-server
+	http2-client
 	security
 	jaas
 	jaspi
