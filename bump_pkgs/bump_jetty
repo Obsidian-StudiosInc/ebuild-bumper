@@ -19,6 +19,7 @@ PKGS=(
 	http-spi
 	monitor
         proxy
+	fcgi-client
 	servlets
 	alpn-client
 	alpn-server
