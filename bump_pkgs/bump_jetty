@@ -38,6 +38,7 @@ PKGS=(
 	webapp
 	plus
 	annotations
+	ant
 	quickstart
 	runner
 )
