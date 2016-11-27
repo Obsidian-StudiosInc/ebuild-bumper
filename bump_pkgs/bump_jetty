@@ -20,6 +20,7 @@ PKGS=(
 	monitor
         proxy
 	fcgi-client
+	fcgi-server
 	servlets
 	alpn-client
 	alpn-server
