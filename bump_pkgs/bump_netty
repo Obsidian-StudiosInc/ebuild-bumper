@@ -1,0 +1,16 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="netty-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	common
+	buffer
+	resolver
+	transport
+	codec
+	handler
+)
