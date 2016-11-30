@@ -1,0 +1,14 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE=""
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	bson
+	mongodb-driver-core
+	mongodb-driver-async
+	mongodb-driver
+)
