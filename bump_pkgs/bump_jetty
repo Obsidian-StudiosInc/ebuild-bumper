@@ -10,8 +10,8 @@ PKGS=(
 	start
 	util
 	continuation
-	http
 	io
+	http
 	jmx
 	xml
 	client
