@@ -33,8 +33,8 @@ Distributed under the terms of The GNU Public License v3.0 (GPLv3)
       --usage                Give a short usage message
   -V, --version              Print program version
 "
-	[[ $1 ]] && echo Error\: $1
-	exit $2
+	[[ $1 ]] && echo "Error: $1"
+	exit "$2"
 }
 
 version() {
