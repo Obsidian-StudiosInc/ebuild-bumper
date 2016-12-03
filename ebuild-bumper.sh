@@ -174,7 +174,7 @@ clean() {
 			let start=2
 		fi
 
-		for ebuild in ${EBUILDS[@]:${start}}; do
+		for ebuild in "${EBUILDS[@]:${start}}"; do
 			git rm ${ebuild}
 		done
 
