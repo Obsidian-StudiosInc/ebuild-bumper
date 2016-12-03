@@ -117,7 +117,8 @@ merge_deps() {
 bump() {
 	# Bump packages, order matters
 	local pkg
-	for pkg in ${PKGS[@]:${RESUME}}; do
+	# shellcheck disable=SC2153
+	for pkg in "${PKGS[@]:${RESUME}}"; do
 		local my_pn="${BASE}${pkg}"
 		local my_p="${my_pn}-${NPV}"
 
