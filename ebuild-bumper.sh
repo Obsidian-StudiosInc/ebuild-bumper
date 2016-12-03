@@ -108,7 +108,7 @@ merge_deps() {
 	local pkg
 	for pkg in ${DEPS}; do
 		if [[ ! -d /usr/share/${pkg}/ ]]; then
-			sudo emerge -qv ${pkg}
+			sudo emerge -qv "${pkg}"
 			[[ $? -ne 0 ]] && exit 1
 		fi
 	done
