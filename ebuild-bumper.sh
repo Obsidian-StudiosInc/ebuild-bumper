@@ -163,7 +163,7 @@ clean() {
 		cd "${REPO}/${CAT}/${my_pn}/" || exit 1
 
 		# Find all ebuilds, sorted, in array
-		local EBUILDS=( $( ls *ebuild | \
+		local EBUILDS=( $( find -- *ebuild -type f | \
 			LC_COLLATE=C sort ${sort_args} ) )
 
 		[[ ${#EBUILDS[@]} -le 1 ]] && continue
