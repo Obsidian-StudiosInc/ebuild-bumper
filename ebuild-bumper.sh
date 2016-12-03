@@ -175,10 +175,10 @@ clean() {
 		fi
 
 		for ebuild in "${EBUILDS[@]:${start}}"; do
-			git rm ${ebuild}
+			git rm "${ebuild}"
 		done
 
-		ebuild ${EBUILDS[@]:0:1} digest
+		ebuild "${EBUILDS[@]:0:1}" digest
 
 		repoman || exit 1
 
