@@ -58,7 +58,8 @@ do
 			;;
 		-f | --file)
 			[[ -z ${2} ]] && help "Missing package variables file" 1
-			source ${2}
+			# shellcheck disable=SC1090
+			. "${2}"
 			shift 2
 			;;
 		-n | --new-version)
