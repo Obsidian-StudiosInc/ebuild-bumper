@@ -130,19 +130,19 @@ bump() {
 
 		# if 9999 exists create symlink, copy otherwise
 		if [[ -f ${my_pn}-9999.ebuild ]]; then
-			ln -s ${VERBOSE} ${my_pn}-9999.ebuild ${my_p}.ebuild \
+			ln -s ${VERBOSE} "${my_pn}-9999.ebuild ${my_p}.ebuild" \
 				|| exit 1
 		else
-			cp ${VERBOSE} ${my_pn}-${OPV}.ebuild ${my_p}.ebuild \
+			cp ${VERBOSE} "${my_pn}-${OPV}.ebuild ${my_p}.ebuild" \
 				|| exit 1
 		fi
 
-		ebuild ${my_p}.ebuild digest
-		sudo emerge -qvO1 =${my_p}
+		ebuild "${my_p}.ebuild" digest
+		sudo emerge -qvO1 ="${my_p}"
 		[[ $? -ne 0 ]] && exit 1
 		if [[ ${CLEAN} ]]; then
-			rm -v ${my_pn}-${OPV}.ebuild
-			ebuild ${my_p}.ebuild digest
+			rm -v "${my_pn}-${OPV}.ebuild"
+			ebuild "${my_p}.ebuild" digest
 		fi
 		git add .
 		repoman || exit 1
