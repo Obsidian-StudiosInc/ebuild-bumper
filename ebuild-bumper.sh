@@ -157,7 +157,7 @@ clean() {
 	local pkg
 	local sort_args="-t. -n -k1,1Vr -k2,2nr -k3,3nr -k3.2,3.2d -k4V"
 	local RPKGS=( $( echo "${PKGS[@]}" | tac -s ' ' ) )
-	for pkg in ${RPKGS[@]:${RESUME}}; do
+	for pkg in "${RPKGS[@]:${RESUME}}"; do
 		local my_pn="${BASE}${pkg}"
 
 		cd ${REPO}/${CAT}/${my_pn}/
