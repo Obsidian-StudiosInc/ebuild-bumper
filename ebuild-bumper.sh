@@ -122,7 +122,7 @@ bump() {
 		local my_pn="${BASE}${pkg}"
 		local my_p="${my_pn}-${NPV}"
 
-		cd ${REPO}/${CAT}/${my_pn}/
+		cd "${REPO}/${CAT}/${my_pn}/" || exit 1
 		[[ ${VERBOSE} ]] && pwd
 
 		# if bumped skip
