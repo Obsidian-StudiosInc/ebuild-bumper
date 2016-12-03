@@ -160,7 +160,7 @@ clean() {
 	for pkg in "${RPKGS[@]:${RESUME}}"; do
 		local my_pn="${BASE}${pkg}"
 
-		cd ${REPO}/${CAT}/${my_pn}/
+		cd "${REPO}/${CAT}/${my_pn}/" || exit 1
 
 		# Find all ebuilds, sorted, in array
 		local EBUILDS=( $( ls *ebuild | \
