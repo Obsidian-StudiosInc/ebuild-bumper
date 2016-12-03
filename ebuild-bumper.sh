@@ -38,7 +38,7 @@ Distributed under the terms of The GNU Public License v3.0 (GPLv3)
 }
 
 version() {
-        echo ${VERSION}
+        echo "${VERSION}"
 	exit 0
 }
 
