@@ -1,4 +1,7 @@
 # ebuild-bumper.sh
+[![License](http://img.shields.io/badge/license-GPLv3-blue.svg?style=plastic)](https://github.com/Obsidian-StudiosInc/ebuild-bumper/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/Obsidian-StudiosInc/ebuild-bumper.svg?branch=master)](https://travis-ci.org/Obsidian-StudiosInc/ebuild-bumper)
+
 Experimental script for version bumping groups of related ebuilds. The 
 script can also clean out older versions of the same group of related 
 ebuilds. It can clean as it goes, but that is not safe for groups, as 
