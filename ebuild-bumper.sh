@@ -163,6 +163,7 @@ clean() {
 		cd "${REPO}/${CAT}/${my_pn}/" || exit 1
 
 		# Find all ebuilds, sorted, in array
+		# shellcheck disable=SC2086
 		local EBUILDS=( $( find -- *ebuild -type f | \
 			LC_COLLATE=C sort ${sort_args} ) )
 
