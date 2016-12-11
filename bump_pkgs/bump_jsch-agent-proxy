@@ -1,0 +1,18 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="jsch-agent-proxy-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	core
+	jsch
+	sshj
+	pageant
+	sshagent
+	usocket-jna
+	usocket-nc
+	connector-factory
+)
