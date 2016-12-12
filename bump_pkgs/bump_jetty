@@ -18,6 +18,7 @@ PKGS=(
 	server
 	http-spi
 	monitor
+	nosql
         proxy
 	fcgi-client
 	fcgi-server
