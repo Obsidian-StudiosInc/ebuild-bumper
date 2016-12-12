@@ -108,8 +108,7 @@ merge_deps() {
 	local pkg
 	for pkg in ${DEPS}; do
 		if [[ ! -d /usr/share/${pkg}/ ]]; then
-			sudo emerge -qv "${pkg}"
-			[[ $? -ne 0 ]] && exit 1
+			sudo emerge -qv "${pkg}" || exit 1
 		fi
 	done
 }
@@ -138,8 +137,7 @@ bump() {
 		fi
 
 		ebuild "${my_p}.ebuild" digest
-		sudo emerge -qvO1 ="${my_p}"
-		[[ $? -ne 0 ]] && exit 1
+		sudo emerge -qvO1 ="${my_p}" || exit 1
 		if [[ ${CLEAN} ]]; then
 			rm -v "${my_pn}-${OPV}.ebuild"
 			ebuild "${my_p}.ebuild" digest
