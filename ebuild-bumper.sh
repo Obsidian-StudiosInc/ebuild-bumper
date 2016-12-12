@@ -147,7 +147,7 @@ bump() {
 		git add .
 		repoman || exit 1
 		repoman commit -m \
-			"${CAT}/${my_pn}: Bumped to latest version" \
+			"${CAT}/${my_pn}: Version bump" \
 			|| exit 1
 	done
 }
