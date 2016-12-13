@@ -3,11 +3,12 @@
 [![Build Status](https://img.shields.io/travis/Obsidian-StudiosInc/ebuild-bumper/master.svg?style=plastic)](https://travis-ci.org/Obsidian-StudiosInc/ebuild-bumper)
 [![Build Status](https://img.shields.io/shippable/5840e5d7e2ab4d0f0058b4b3/master.svg?style=plastic)](https://app.shippable.com/projects/5840e5d7e2ab4d0f0058b4b3/)
 
-Experimental script for version bumping groups of related ebuilds. The 
-script can also clean out older versions of the same group of related 
-ebuilds. It can clean as it goes, but that is not safe for groups, as 
-it will break the depgraph and cause the script the exit after repoman 
-fails.
+A bash script for version bumping an individual ebuild or groups of 
+ebuilds with the same version. The script can also clean out older 
+versions of the same group ebuilds. It can clean as it goes, but that is 
+only save for individual packages. If cleaning as part of a group of 
+packages being bumped, it will break the depgraph. Which will cause the 
+script to exit when repoman fails.
 
 ## Usage
 The script functions off 5 variables, all pretty self explanatory. Place 
