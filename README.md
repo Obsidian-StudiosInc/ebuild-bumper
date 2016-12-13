@@ -42,9 +42,11 @@ Copyright 2016 Obsidian-Studios, Inc.
 Distributed under the terms of The GNU Public License v3.0 (GPLv3)
 
  Global Options:
+  -b, --bump                 Bump stand alone package, path to ebuild
   -c, --clean                Clean/remove old version
   -C, --clean-all            Clean/remove all old versions
   -f, --file                 File to source for package specific variables
+                             Not used with -b option/overrides
   -n, --new-version          New package version string, numeric or
                              alpha/numeric
   -o, --old-version          Old/current package version string, numeric or
