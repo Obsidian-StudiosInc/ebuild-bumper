@@ -182,9 +182,15 @@ clean() {
 			let start=2
 		fi
 
-		for ebuild in "${EBUILDS[@]:${start}}"; do
-			git rm "${ebuild}"
-		done
+		# Remove single version if specified otherwise clean all
+		# Needs to be modified for stable and ~arch cleaning
+		if [[ ${OPV} ]]; then
+			git rm "${my_pn}-${OPV}.ebuild"
+		else
+			for ebuild in "${EBUILDS[@]:${start}}"; do
+				git rm "${ebuild}"
+			done
+		fi
 
 		ebuild "${EBUILDS[@]:0:1}" digest
 
