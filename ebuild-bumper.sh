@@ -185,6 +185,7 @@ clean() {
 		# Remove single version if specified otherwise clean all
 		# Needs to be modified for stable and ~arch cleaning
 		if [[ ${OPV} ]]; then
+			[[ ! -f "${my_pn}-${OPV}.ebuild" ]] && continue
 			git rm "${my_pn}-${OPV}.ebuild"
 		else
 			for ebuild in "${EBUILDS[@]:${start}}"; do
