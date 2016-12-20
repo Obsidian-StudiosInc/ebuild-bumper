@@ -53,8 +53,16 @@ do
 		-b | --bump)
 			[[ -z ${2} ]] && help "Missing ebuild to bump" 1
 			PKGS="$( basename "${2}" )"
-			CAT="$( basename "${2%*/*/}" )"
-			REPO="$( dirname "${2%*/*/}" )"
+			case "${2}" in
+				*/)
+					CAT="$( basename "${2%*/*/}" )"
+					REPO="$( dirname "${2%*/*/}" )"
+					;;
+				*)
+					CAT="$( basename "${2%*/*}" )"
+					REPO="$( dirname "${2%*/*}" )"
+					;;
+			esac
 			shift 2
 			;;
 		-c | --clean)
