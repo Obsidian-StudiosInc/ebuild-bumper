@@ -170,7 +170,7 @@ bump() {
 clean() {
 	# Clean packages, order matters
 	local pkg
-	local sort_args="-t. -n -k1,1Vr -k2,2nr -k3,3nr -k3.2,3.2d -k4V"
+	local sort_args="-t. -n -k1,1Vr -k2,2nr -k3,3nr -k3.2,3.2d -k4Vr"
 	local RPKGS=( $( echo "${PKGS[@]}" | tac -s ' ' ) )
 	for pkg in "${RPKGS[@]:${RESUME}}"; do
 		local my_pn="${BASE}${pkg}"
@@ -179,7 +179,7 @@ clean() {
 
 		# Find all ebuilds, sorted, in array
 		# shellcheck disable=SC2086
-		local EBUILDS=( $( find -- *ebuild -type f | \
+		local EBUILDS=( $( find -- *ebuild | \
 			LC_COLLATE=C sort ${sort_args} ) )
 
 		[[ ${#EBUILDS[@]} -le 1 ]] && continue
