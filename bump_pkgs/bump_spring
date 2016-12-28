@@ -1,0 +1,14 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="spring-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	core
+	expression
+	beans
+	aop
+)
