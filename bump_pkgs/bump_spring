@@ -14,4 +14,5 @@ PKGS=(
 	beans-groovy
 	aop
 	context
+	tx
 )
