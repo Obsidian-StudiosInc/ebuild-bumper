@@ -13,4 +13,5 @@ PKGS=(
 	transport
 	codec
 	handler
+	codec-http
 )
