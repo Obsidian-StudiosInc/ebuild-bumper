@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="httpcomponents-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	core
+	core-nio
+)
