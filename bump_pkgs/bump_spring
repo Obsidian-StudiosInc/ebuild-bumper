@@ -16,4 +16,5 @@ PKGS=(
 	context
 	oxm
 	tx
+	web
 )
