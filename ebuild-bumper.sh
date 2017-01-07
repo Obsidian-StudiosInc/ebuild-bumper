@@ -162,7 +162,7 @@ bump() {
 		git add .
 		repoman || exit 1
 		repoman commit -m \
-			"${CAT}/${my_pn}: Version bump" \
+			"${CAT}/${my_pn}: Version bump ${OPV} -> ${NPV}" \
 			|| exit 1
 	done
 }
