@@ -145,7 +145,7 @@ bump() {
 		[[ -e ${my_p}.ebuild ]] && continue
 
 		# if 9999 exists create symlink, copy otherwise
-		if [[ -f ${my_pn}-9999.ebuild ]]; then
+		if [[ -f ${my_pn}-9999.ebuild ]] && [[  -L "${my_pn}-${OPV}.ebuild" ]]; then
 			ln -s ${VERBOSE} "${my_pn}-9999.ebuild" "${my_p}.ebuild" \
 				|| exit 1
 		else
