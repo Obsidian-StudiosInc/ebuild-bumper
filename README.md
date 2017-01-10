@@ -6,9 +6,9 @@
 A bash script for version bumping an individual ebuild or groups of 
 ebuilds with the same version. The script can also clean out older 
 versions of the same group ebuilds, or single ebuild version. It can 
-clean as it goes, but that is only save for individual packages. If  
+clean as it goes, but that is only safe for individual packages. If 
 cleaning as part of a group of packages being bumped, it will break the 
-depgraph. Which will cause the script to exit when repoman fails.
+dep graph. Which will cause the script to exit when repoman fails.
 
 ## Usage
 There is two ways to use the script, directly on a single package, or 
