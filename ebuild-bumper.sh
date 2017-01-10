@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright 2016 Obsidian-Studios, Inc.
+# Copyright 2016-2017 Obsidian-Studios, Inc.
 # Author William L. Thomson Jr.
 #        wlt@o-sinc.com
 #
