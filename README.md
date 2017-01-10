@@ -1,5 +1,5 @@
 # ebuild-bumper.sh
-[![License](https://img.shields.io/badge/license-GPLv3-blue.svg?colorB=9977bb&style=plastic)](https://github.com/Obsidian-StudiosInc/ebuild-bumper/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-GPLv3-9977bb.svg?style=plastic)](https://github.com/Obsidian-StudiosInc/ebuild-bumper/blob/master/LICENSE)
 [![Build Status](https://img.shields.io/travis/Obsidian-StudiosInc/ebuild-bumper/master.svg?colorA=9977bb&style=plastic)](https://travis-ci.org/Obsidian-StudiosInc/ebuild-bumper)
 [![Build Status](https://img.shields.io/shippable/5840e5d7e2ab4d0f0058b4b3/master.svg?colorA=9977bb&style=plastic)](https://app.shippable.com/projects/5840e5d7e2ab4d0f0058b4b3/)
 
@@ -11,7 +11,18 @@ cleaning as part of a group of packages being bumped, it will break the
 depgraph. Which will cause the script to exit when repoman fails.
 
 ## Usage
-The script functions off 5 variables, all pretty self explanatory. Place 
+There is two ways to use the script, directly on a single package, or 
+using a bump file that provides the necessary variables for multiple 
+packages.
+
+### Single package
+To bump a single package
+```bash
+./ebuild-bumper.sh -b /usr/portage/category/package/ -o 0.1 -n 0.2
+```
+
+### Bump File
+The bump file works off 5 variables, all pretty self explanatory. Place 
 the variables in a file of its own in any location you choose. Default 
 location is in the provided bump_pkg directory. That file is passed to 
 ebuild-bumper.sh along with other arguments.
@@ -36,7 +47,13 @@ PKGS=(
 )
 ```
 
-To run see the following options
+To bump a multiple packages using a bump file
+```bash
+./ebuild-bumper.sh -f /path/to/bump_file -o 0.1 -n 0.2
+```
+
+# Help
+For more information see the following options
 
 ```bash
 Ebuild bumper
