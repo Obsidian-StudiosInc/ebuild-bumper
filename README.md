@@ -21,6 +21,16 @@ To bump a single package
 ./ebuild-bumper.sh -b /usr/portage/category/package/ -o 0.1 -n 0.2
 ```
 
+To clean a single package
+```bash
+# All old except latest and 9999 if exists
+./ebuild-bumper.sh -C -b /usr/portage/category/package/
+
+# Single version
+./ebuild-bumper.sh -c -b /usr/portage/category/package/ -o 0.1
+
+```
+
 ### Bump File
 The bump file works off 5 variables, all pretty self explanatory. Place 
 the variables in a file of its own in any location you choose. Default 
@@ -47,9 +57,19 @@ PKGS=(
 )
 ```
 
-To bump a multiple packages using a bump file
+To bump multiple packages using a bump file
 ```bash
 ./ebuild-bumper.sh -f /path/to/bump_file -o 0.1 -n 0.2
+```
+
+To clean multiple packages using a bump file 
+```bash
+# All old except latest and 9999 if exists
+./ebuild-bumper.sh -C -f /path/to/bump_file
+
+# Single version
+./ebuild-bumper.sh -c -f /path/to/bump_file -o 0.1
+
 ```
 
 # Help
