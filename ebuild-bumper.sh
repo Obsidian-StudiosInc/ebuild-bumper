@@ -170,7 +170,7 @@ bump() {
 clean() {
 	# Clean packages, order matters
 	local pkg
-	local sort_args="-t. -n -k1,1Vr -k2,2nr -k3,3nr -k3.2,3.2d -k4Vr"
+	local sort_args="-t. -n -k1,1Vr -k2,2nr -k3,3nr -k3.2,3.2d -k3.3d,3Vr -k4Vr"
 	local RPKGS=( $( echo "${PKGS[@]}" | tac -s ' ' ) )
 	for pkg in "${RPKGS[@]:${RESUME}}"; do
 		local my_pn="${BASE}${pkg}"
