@@ -11,4 +11,5 @@ PKGS=(
 	xml
 	schema
 	codegen
+	anttask
 )
