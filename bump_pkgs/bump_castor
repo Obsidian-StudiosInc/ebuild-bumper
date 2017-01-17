@@ -10,4 +10,5 @@ PKGS=(
 	core
 	xml
 	schema
+	codegen
 )
