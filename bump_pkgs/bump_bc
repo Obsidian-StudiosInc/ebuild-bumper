@@ -1,0 +1,13 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="bc"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	prov
+	pkix
+	mail
+)
