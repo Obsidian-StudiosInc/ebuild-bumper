@@ -12,4 +12,5 @@ PKGS=(
 	openpdf-xml
 	openpdf-html
 	openpdf-swing
+	openpdf-toolbox
 )
