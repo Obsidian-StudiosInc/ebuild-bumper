@@ -11,4 +11,5 @@ PKGS=(
 	openpdf-rtf
 	openpdf-xml
 	openpdf-html
+	openpdf-swing
 )
