@@ -10,4 +10,5 @@ PKGS=(
 	shared
 	engine
 	build
+	client
 )
