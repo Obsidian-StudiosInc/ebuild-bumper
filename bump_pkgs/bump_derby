@@ -11,4 +11,5 @@ PKGS=(
 	engine
 	build
 	client
+	storeless
 )
