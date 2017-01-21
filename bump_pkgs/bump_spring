@@ -16,5 +16,6 @@ PKGS=(
 	context
 	oxm
 	tx
+	jdbc
 	web
 )
