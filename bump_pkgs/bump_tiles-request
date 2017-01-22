@@ -9,4 +9,6 @@ DEPS=""
 PKGS=(
 	api
 	servlet
+	freemarker
+	jsp
 )
