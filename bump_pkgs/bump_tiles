@@ -11,4 +11,5 @@ PKGS=(
 	core
 	el
 	servlet
+	template
 )
