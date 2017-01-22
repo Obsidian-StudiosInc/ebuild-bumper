@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	api
 	core
+	servlet
 )
