@@ -12,4 +12,5 @@ PKGS=(
 	el
 	servlet
 	template
+	jsp
 )
