@@ -9,6 +9,7 @@ DEPS=""
 PKGS=(
 	api
 	core
+	mvel
 	el
 	servlet
 	template
