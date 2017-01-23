@@ -10,6 +10,7 @@ PKGS=(
 	api
 	core
 	mvel
+	ognl
 	el
 	servlet
 	template
