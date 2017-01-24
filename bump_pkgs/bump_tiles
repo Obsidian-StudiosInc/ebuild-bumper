@@ -14,5 +14,6 @@ PKGS=(
 	el
 	servlet
 	template
+	velocity
 	jsp
 )
