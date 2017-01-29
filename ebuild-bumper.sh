@@ -154,7 +154,7 @@ bump() {
 		fi
 
 		ebuild "${my_p}.ebuild" digest
-		sudo emerge -qvO1 ="${my_p}" || exit 1
+		sudo emerge -qvO1 ="${CAT}/${my_p}" || exit 1
 		if [[ ${CLEAN} ]]; then
 			rm -v "${my_pn}-${OPV}.ebuild"
 			ebuild "${my_p}.ebuild" digest
