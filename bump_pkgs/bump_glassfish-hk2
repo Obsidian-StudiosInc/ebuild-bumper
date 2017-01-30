@@ -10,5 +10,6 @@ PKGS=(
 	utils
 	osgi-resource-locator
 	api
+	jmx
 	locator
 )
