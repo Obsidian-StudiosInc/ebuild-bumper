@@ -12,5 +12,6 @@ PKGS=(
 	api
 	jmx
 	metadata-generator
+	runlevel
 	locator
 )
