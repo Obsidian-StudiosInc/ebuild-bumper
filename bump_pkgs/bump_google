@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="googe-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	http-client
+	oauth-client
+)
