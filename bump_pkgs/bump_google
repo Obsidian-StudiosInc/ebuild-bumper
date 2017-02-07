@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	http-client
 	oauth-client
+	http-client-jackson2
 )
