@@ -9,6 +9,7 @@ DEPS=""
 PKGS=(
 	api
 	servlet
+	servlet-wildcard
 	freemarker
 	jsp
 	velocity
