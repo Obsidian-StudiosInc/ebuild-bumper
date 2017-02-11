@@ -16,6 +16,7 @@ PKGS=(
 	servlet
 	template
 	freemarker
+	extras
 	velocity
 	jsp
 )
