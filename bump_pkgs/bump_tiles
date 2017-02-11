@@ -9,6 +9,7 @@ DEPS=""
 PKGS=(
 	api
 	core
+	compat
 	mvel
 	ognl
 	el
