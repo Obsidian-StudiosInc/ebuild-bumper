@@ -8,6 +8,7 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	api
+	mustache
 	servlet
 	servlet-wildcard
 	freemarker
