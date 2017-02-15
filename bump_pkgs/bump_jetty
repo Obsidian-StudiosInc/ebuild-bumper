@@ -17,6 +17,7 @@ PKGS=(
 	jmx
 	xml
 	client
+	websocket-client
 	server
 	http-spi
 	monitor
