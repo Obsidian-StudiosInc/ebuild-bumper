@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="pentaho-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	database-model
+	xul-core
+)
