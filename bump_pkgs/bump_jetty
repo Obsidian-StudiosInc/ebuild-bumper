@@ -12,6 +12,7 @@ PKGS=(
 	util
 	continuation
 	io
+	websocket-common
 	http
 	jmx
 	xml
