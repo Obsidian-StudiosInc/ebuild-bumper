@@ -11,6 +11,7 @@ PKGS=(
 	http-client-gson
 	oauth-client
 	oauth-client-java6
+	oauth-client-jetty
 	http-client-jackson2
 	api-client
 	api-client-gson
