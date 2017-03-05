@@ -5,7 +5,7 @@
 #
 # Distributed under the terms of The GNU Public License v3.0 (GPLv3)
 
-VERSION="Version 0.5"
+VERSION="Version 0.6"
 
 help() {
         echo "Usage: ${0} [OPTION...]
@@ -27,6 +27,7 @@ Distributed under the terms of The GNU Public License v3.0 (GPLv3)
   -o, --old-version          Old/current package version string, numeric or
                              alpha/numeric
   -r, --resume               Resume at array index, numeric only!
+  -u, --uninstall            Uninstall package(s), useful before bumps
   -v, --verbose              Enable verbose commands
 
  GNU Options:
@@ -96,6 +97,10 @@ do
 			RESUME=${2}
 			shift 2
 			;;
+		-u | --uninstall)
+			REMOVE="true"
+			shift
+			;;
 		-v | --verbose)
 			VERBOSE="-v"
 			shift
@@ -154,7 +159,7 @@ bump() {
 		fi
 
 		ebuild "${my_p}.ebuild" digest
-		sudo emerge -qvO1 ="${CAT}/${my_p}" || exit 1
+		sudo emerge -qvk1 ="${CAT}/${my_p}" || exit 1
 		if [[ ${CLEAN} ]]; then
 			rm -v "${my_pn}-${OPV}.ebuild"
 			ebuild "${my_p}.ebuild" digest
@@ -209,8 +214,23 @@ clean() {
 	done
 }
 
+remove() {
+	local RPKGS pkg
+	RPKGS=( $( echo "${PKGS[@]}" | tac -s ' ' ) )
+	for pkg in "${RPKGS[@]}"; do
+		sudo emerge -qC "${CAT}/${BASE}${pkg}"
+	done
+}
+
 [[ ! ${PKGS} ]] && help "Missing packages to bump, package file?" 1
 [[ ! ${RESUME} ]] && RESUME=0
+
+# Remove packages before bump
+if [[ ${REMOVE} ]]; then
+	remove
+	# if not bumping, exit
+	[[ ! ${OPV} ]] && exit 0
+fi
 
 if [[ ${CLEAN_ALL} ]]; then
 	clean
