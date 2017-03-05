@@ -91,6 +91,7 @@ Distributed under the terms of The GNU Public License v3.0 (GPLv3)
   -o, --old-version          Old/current package version string, numeric or
                              alpha/numeric
   -r, --resume               Resume at array index, numeric only!
+  -u, --uninstall            Uninstall package(s), useful before bumps
   -v, --verbose              Enable verbose commands
 
  GNU Options:
