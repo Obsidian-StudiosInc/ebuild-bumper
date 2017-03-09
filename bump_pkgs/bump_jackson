@@ -11,5 +11,6 @@ PKGS=(
 	annotations
 	databind
 	module-jaxb-annotations
+	dataformat-xml
 )
 
