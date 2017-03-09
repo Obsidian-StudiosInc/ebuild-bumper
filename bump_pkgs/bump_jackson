@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	core
 	annotations
+	databind
 )
