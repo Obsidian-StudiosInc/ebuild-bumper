@@ -18,16 +18,16 @@ packages.
 ### Single package
 To bump a single package
 ```bash
-./ebuild-bumper.sh -b /usr/portage/category/package/ -o 0.1 -n 0.2
+./ebuild-bumper.sh -o 0.1 -n 0.2 /usr/portage/category/package/
 ```
 
 To clean a single package
 ```bash
 # All old except latest and 9999 if exists
-./ebuild-bumper.sh -C -b /usr/portage/category/package/
+./ebuild-bumper.sh -C /usr/portage/category/package/
 
 # Single version
-./ebuild-bumper.sh -c -b /usr/portage/category/package/ -o 0.1
+./ebuild-bumper.sh -c -o 0.1 /usr/portage/category/package/
 
 ```
 
@@ -59,16 +59,16 @@ PKGS=(
 
 To bump multiple packages using a bump file
 ```bash
-./ebuild-bumper.sh -f /path/to/bump_file -o 0.1 -n 0.2
+./ebuild-bumper.sh -o 0.1 -n 0.2 /path/to/bump_file
 ```
 
 To clean multiple packages using a bump file 
 ```bash
 # All old except latest and 9999 if exists
-./ebuild-bumper.sh -C -f /path/to/bump_file
+./ebuild-bumper.sh -C /path/to/bump_file
 
 # Single version
-./ebuild-bumper.sh -c -f /path/to/bump_file -o 0.1
+./ebuild-bumper.sh -c -o 0.1 /path/to/bump_file
 
 ```
 
@@ -76,16 +76,16 @@ To clean multiple packages using a bump file
 For more information see the following options
 
 ```bash
-Ebuild bumper
-Copyright 2016-2017 Obsidian-Studios, Inc.
-Distributed under the terms of The GNU Public License v3.0 (GPLv3)
+Ebuild bumper - Version bump ebuild(s)
+Usage:
+    ebuild-bumper.sh -n <new_PV> -o <old_PV> <bump_file or pkg_dir>
+    ebuild-bumper.sh -u <old_PV> <bump_file or pkg_dir>
+    ebuild-bumper.sh -C -o <old_PV> <bump_file or pkg_dir>
+    ebuild-bumper.sh -C <bump_file or pkg_dir>
 
  Global Options:
-  -b, --bump                 Bump stand alone package, path to ebuild
   -c, --clean                Clean/remove old version
   -C, --clean-all            Clean/remove all old versions
-  -f, --file                 File to source for package specific variables
-                             Not used with -b option/overrides
   -n, --new-version          New package version string, numeric or
                              alpha/numeric
   -o, --old-version          Old/current package version string, numeric or
@@ -99,4 +99,7 @@ Distributed under the terms of The GNU Public License v3.0 (GPLv3)
   -?, --help                 Give this help list
       --usage                Give a short usage message
   -V, --version              Print program version
+
+Copyright 2016-2017 Obsidian-Studios, Inc.
+Distributed under the terms of The GNU Public License v3.0 (GPLv3)
 ```
