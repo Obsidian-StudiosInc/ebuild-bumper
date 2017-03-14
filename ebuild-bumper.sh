@@ -20,6 +20,7 @@ Usage:
  Global Options:
   -c, --clean                Clean/remove old version
   -C, --clean-all            Clean/remove all old versions
+  -d, --do-not               Do not merge, just bump and commit, no install
   -n, --new-version          New package version string, numeric or
                              alpha/numeric
   -o, --old-version          Old/current package version string, numeric or
@@ -58,6 +59,10 @@ do
 			;;
 		-C | --clean-all)
 			CLEAN_ALL="true"
+			shift
+			;;
+		-d | --do-not)
+			NO_MERGE="true"
 			shift
 			;;
 		-n | --new-version)
@@ -158,7 +163,9 @@ bump() {
 		fi
 
 		ebuild "${my_p}.ebuild" digest
-		sudo emerge -qvk1 ="${CAT}/${my_p}" || exit 1
+		if [[ ! ${NO_MERGE} ]]; then
+			sudo emerge -qvk1 ="${CAT}/${my_p}" || exit 1
+		fi
 		if [[ ${CLEAN} ]]; then
 			rm -v "${my_pn}-${OPV}.ebuild"
 			ebuild "${my_p}.ebuild" digest
