@@ -8,20 +8,18 @@
 VERSION="Version 0.6"
 
 help() {
-        echo "Usage: ${0} [OPTION...]
-
-${0} -v -c -f <pkg_file> -n <new_version> -o <old_version> [ -r <index> ]
-
-Ebuild bumper
-Copyright 2016-2017 Obsidian-Studios, Inc.
-Distributed under the terms of The GNU Public License v3.0 (GPLv3)
+	local me
+	me="${0##*/}"
+        echo "Ebuild bumper - Version bump ebuild(s)
+Usage:
+    "${me}" -n <new_PV> -o <old_PV> <bump_file or pkg_dir>
+    "${me}" -u <old_PV> <bump_file or pkg_dir>
+    "${me}" -C -o <old_PV> <bump_file or pkg_dir>
+    "${me}" -C <bump_file or pkg_dir>
 
  Global Options:
-  -b, --bump                 Bump stand alone package, path to ebuild
   -c, --clean                Clean/remove old version
   -C, --clean-all            Clean/remove all old versions
-  -f, --file                 File to source for package specific variables
-                             Not used with -b option/overrides
   -n, --new-version          New package version string, numeric or
                              alpha/numeric
   -o, --old-version          Old/current package version string, numeric or
@@ -35,6 +33,9 @@ Distributed under the terms of The GNU Public License v3.0 (GPLv3)
   -?, --help                 Give this help list
       --usage                Give a short usage message
   -V, --version              Print program version
+
+Copyright 2016-2017 Obsidian-Studios, Inc.
+Distributed under the terms of The GNU Public License v3.0 (GPLv3)
 "
 	[[ $1 ]] && echo "Error: $1"
 	exit "$2"
@@ -51,21 +52,6 @@ version() {
 while :
 do
 	case "$1" in
-		-b | --bump)
-			[[ -z ${2} ]] && help "Missing ebuild to bump" 1
-			PKGS="$( basename "${2}" )"
-			case "${2}" in
-				*/)
-					CAT="$( basename "${2%*/*/}" )"
-					REPO="$( dirname "${2%*/*/}" )"
-					;;
-				*)
-					CAT="$( basename "${2%*/*}" )"
-					REPO="$( dirname "${2%*/*}" )"
-					;;
-			esac
-			shift 2
-			;;
 		-c | --clean)
 			CLEAN="true"
 			shift
@@ -73,12 +59,6 @@ do
 		-C | --clean-all)
 			CLEAN_ALL="true"
 			shift
-			;;
-		-f | --file)
-			[[ -z ${2} ]] && help "Missing package variables file" 1
-			# shellcheck disable=SC1090
-			. "${2}"
-			shift 2
 			;;
 		-n | --new-version)
 			[[ -z ${2} ]] && help "Missing new ebuild version" 1
@@ -120,7 +100,26 @@ do
 			exit 2
                         ;;
 		*)
-			break
+			if [[ -f "${1}" ]]; then
+				# shellcheck disable=SC1090
+				. "${1}"
+				shift
+			elif [[ -d "${1}" ]]; then
+				PKGS="$( basename "${1}" )"
+				case "${1}" in
+					*/)
+						CAT="$( basename "${1%*/*/}" )"
+						REPO="$( dirname "${1%*/*/}" )"
+						;;
+					*)
+						CAT="$( basename "${1%*/*}" )"
+						REPO="$( dirname "${1%*/*}" )"
+						;;
+				esac
+				shift
+			else
+				break
+			fi
 			;;
 	esac
 done
