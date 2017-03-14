@@ -86,6 +86,7 @@ Usage:
  Global Options:
   -c, --clean                Clean/remove old version
   -C, --clean-all            Clean/remove all old versions
+  -d, --do-not               Do not merge, just bump and commit, no install
   -n, --new-version          New package version string, numeric or
                              alpha/numeric
   -o, --old-version          Old/current package version string, numeric or
