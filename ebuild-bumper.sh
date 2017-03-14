@@ -13,7 +13,7 @@ help() {
 ${0} -v -c -f <pkg_file> -n <new_version> -o <old_version> [ -r <index> ]
 
 Ebuild bumper
-Copyright 2016 Obsidian-Studios, Inc.
+Copyright 2016-2017 Obsidian-Studios, Inc.
 Distributed under the terms of The GNU Public License v3.0 (GPLv3)
 
  Global Options:
