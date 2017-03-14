@@ -12,10 +12,10 @@ help() {
 	me="${0##*/}"
         echo "Ebuild bumper - Version bump ebuild(s)
 Usage:
-    "${me}" -n <new_PV> -o <old_PV> <bump_file or pkg_dir>
-    "${me}" -u <old_PV> <bump_file or pkg_dir>
-    "${me}" -C -o <old_PV> <bump_file or pkg_dir>
-    "${me}" -C <bump_file or pkg_dir>
+    ${me} -n <new_PV> -o <old_PV> <bump_file or pkg_dir>
+    ${me} -u <old_PV> <bump_file or pkg_dir>
+    ${me} -C -o <old_PV> <bump_file or pkg_dir>
+    ${me} -C <bump_file or pkg_dir>
 
  Global Options:
   -c, --clean                Clean/remove old version
