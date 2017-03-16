@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	groovy
 	groovy-xml
+	groovy-templates
 )
