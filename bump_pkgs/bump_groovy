@@ -11,4 +11,5 @@ PKGS=(
 	groovy-xml
 	groovy-templates
 	groovy-groovydoc
+	groovy-ant
 )
