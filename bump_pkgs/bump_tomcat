@@ -1,0 +1,13 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT=""
+BASE=""
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	dev-java/tomcat-servlet-api
+	dev-java/tomcat-server
+	www-servers/tomcat
+)
