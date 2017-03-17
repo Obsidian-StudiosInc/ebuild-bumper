@@ -17,4 +17,5 @@ PKGS=(
 	codec-haproxy
 	codec-http
 	codec-http2
+	codec-memcache
 )
