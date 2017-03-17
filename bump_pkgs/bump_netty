@@ -13,6 +13,7 @@ PKGS=(
 	transport
 	codec
 	handler
+	codec-dns
 	codec-http
 	codec-http2
 )
