@@ -14,6 +14,7 @@ PKGS=(
 	codec
 	handler
 	codec-dns
+	codec-haproxy
 	codec-http
 	codec-http2
 )
