@@ -144,10 +144,14 @@ bump() {
 	local pkg
 	# shellcheck disable=SC2153
 	for pkg in "${PKGS[@]:${RESUME}}"; do
-		local my_pn="${BASE}${pkg}"
-		local my_p="${my_pn}-${NPV}"
+		local my_cat my_pn my_p
+		my_cat="${CAT}"
+		my_pn="${BASE}${pkg#*/}"
+		my_p="${my_pn}-${NPV}"
 
-		cd "${REPO}/${CAT}/${my_pn}/" || exit 1
+		[[ ! "${my_cat}" ]] && my_cat="${pkg%/*}"
+
+		cd "${REPO}/${my_cat}/${my_pn}/" || exit 1
 		[[ ${VERBOSE} ]] && pwd
 
 		# if bumped skip
@@ -164,7 +168,7 @@ bump() {
 
 		ebuild "${my_p}.ebuild" digest
 		if [[ ! ${NO_MERGE} ]]; then
-			sudo emerge -qvk1 ="${CAT}/${my_p}" || exit 1
+			sudo emerge -qvk1 ="${my_cat}/${my_p}" || exit 1
 		fi
 		if [[ ${CLEAN} ]]; then
 			rm -v "${my_pn}-${OPV}.ebuild"
@@ -173,7 +177,7 @@ bump() {
 		git add .
 		repoman || exit 1
 		repoman commit -m \
-			"${CAT}/${my_pn}: Version bump ${OPV} -> ${NPV}" \
+			"${my_cat}/${my_pn}: Version bump ${OPV} -> ${NPV}" \
 			|| exit 1
 	done
 }
@@ -184,9 +188,13 @@ clean() {
 	local sort_args="-t. -n -k1,1Vr -k2,2nr -k3,3nr -k3.2,3.2d -k3.3d,3Vr -k4Vr"
 	local RPKGS=( $( echo "${PKGS[@]}" | tac -s ' ' ) )
 	for pkg in "${RPKGS[@]:${RESUME}}"; do
-		local my_pn="${BASE}${pkg}"
+		local my_cat my_pn
+		my_cat="${CAT}"
+		my_pn="${BASE}${pkg}"
 
-		cd "${REPO}/${CAT}/${my_pn}/" || exit 1
+		[[ ! "${my_cat}" ]] && my_cat="${pkg%/*}"
+
+		cd "${REPO}/${my_cat}/${my_pn}/" || exit 1
 
 		# Find all ebuilds, sorted, in array
 		# shellcheck disable=SC2086
@@ -216,7 +224,7 @@ clean() {
 
 		repoman || exit 1
 
-		repoman commit -m "${CAT}/${my_pn}: Cleaning old version(s)"
+		repoman commit -m "${my_cat}/${my_pn}: Cleaning old version(s)"
 	done
 }
 
@@ -224,7 +232,9 @@ remove() {
 	local RPKGS pkg
 	RPKGS=( $( echo "${PKGS[@]}" | tac -s ' ' ) )
 	for pkg in "${RPKGS[@]}"; do
-		sudo emerge -qC "${CAT}/${BASE}${pkg}"
+		local my_cat="${CAT}"
+		[[ ! "${my_cat}" ]] && my_cat="${pkg%/*}"
+		sudo emerge -qC "${my_cat}/${BASE}${pkg}"
 	done
 }
 
