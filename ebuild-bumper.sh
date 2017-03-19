@@ -234,7 +234,7 @@ remove() {
 	for pkg in "${RPKGS[@]}"; do
 		local my_cat="${CAT}"
 		[[ ! "${my_cat}" ]] && my_cat="${pkg%/*}"
-		sudo emerge -qC "${my_cat}/${pkg#*/}"
+		sudo emerge -qC "${my_cat}/${BASE}${pkg#*/}"
 	done
 }
 
