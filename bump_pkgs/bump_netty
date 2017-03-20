@@ -18,4 +18,5 @@ PKGS=(
 	codec-http
 	codec-http2
 	codec-memcache
+	codec-smtp
 )
