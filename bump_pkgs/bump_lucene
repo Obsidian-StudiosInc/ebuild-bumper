@@ -11,4 +11,5 @@ PKGS=(
 	analysis-common
 	queries
 	sandbox
+	queryparser
 )
