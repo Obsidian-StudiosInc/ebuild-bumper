@@ -12,4 +12,5 @@ PKGS=(
 	build
 	client
 	storeless
+	tools
 )
