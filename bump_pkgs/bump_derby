@@ -13,4 +13,5 @@ PKGS=(
 	client
 	storeless
 	tools
+	drda
 )
