@@ -10,4 +10,5 @@ PKGS=(
 	core
 	analysis-common
 	queries
+	sandbox
 )
