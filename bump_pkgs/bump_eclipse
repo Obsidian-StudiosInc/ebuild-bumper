@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	osgi
 	osgi-services
+	equinox-common
 )
