@@ -11,6 +11,7 @@ PKGS=(
 	osgi-services
 	equinox-common
 	core-commands
+	text
 	equinox-util
 	core-jobs
 	equinox-registry
