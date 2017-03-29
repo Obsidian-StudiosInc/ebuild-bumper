@@ -10,4 +10,5 @@ PKGS=(
 	osgi
 	osgi-services
 	equinox-common
+	equinox-util
 )
