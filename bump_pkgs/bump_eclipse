@@ -15,4 +15,5 @@ PKGS=(
 	equinox-registry
 	equinox-app
 	equinox-preferences
+	core-contenttype
 )
