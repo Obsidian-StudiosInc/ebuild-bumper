@@ -13,4 +13,5 @@ PKGS=(
 	equinox-util
 	core-jobs
 	equinox-registry
+	equinox-app
 )
