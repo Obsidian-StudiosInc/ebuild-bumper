@@ -16,4 +16,5 @@ PKGS=(
 	equinox-app
 	equinox-preferences
 	core-contenttype
+	core-runtime
 )
