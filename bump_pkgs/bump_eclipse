@@ -12,4 +12,5 @@ PKGS=(
 	equinox-common
 	equinox-util
 	core-jobs
+	equinox-registry
 )
