@@ -20,4 +20,5 @@ PKGS=(
 	core-contenttype
 	core-runtime
 	core-filesystem
+	core-expressions
 )
