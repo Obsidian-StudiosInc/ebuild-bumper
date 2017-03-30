@@ -22,4 +22,5 @@ PKGS=(
 	core-filesystem
 	core-expressions
 	core-resources
+	jdt-core
 )
