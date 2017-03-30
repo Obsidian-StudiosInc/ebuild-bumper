@@ -21,4 +21,5 @@ PKGS=(
 	core-runtime
 	core-filesystem
 	core-expressions
+	core-resources
 )
