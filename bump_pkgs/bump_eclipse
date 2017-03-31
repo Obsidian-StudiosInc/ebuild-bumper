@@ -26,4 +26,5 @@ PKGS=(
 	core-expressions
 	core-resources
 	jdt-core
+	jface
 )
