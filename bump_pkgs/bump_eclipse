@@ -27,4 +27,5 @@ PKGS=(
 	core-resources
 	jdt-core
 	jface
+	jface-text
 )
