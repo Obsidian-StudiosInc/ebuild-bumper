@@ -29,4 +29,5 @@ PKGS=(
 	jface
 	jface-text
 	core-filebuffers
+	ltk-core-refactoring
 )
