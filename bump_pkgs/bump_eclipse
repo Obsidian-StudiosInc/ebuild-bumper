@@ -28,4 +28,5 @@ PKGS=(
 	jdt-core
 	jface
 	jface-text
+	core-filebuffers
 )
