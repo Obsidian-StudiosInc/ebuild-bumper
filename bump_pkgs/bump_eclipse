@@ -35,4 +35,5 @@ PKGS=(
 	e4-emf-xpath
 	e4-core-di
 	e4-core-contexts
+	e4-core-services
 )
