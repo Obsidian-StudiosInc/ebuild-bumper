@@ -8,4 +8,5 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	common
+	ecore
 )
