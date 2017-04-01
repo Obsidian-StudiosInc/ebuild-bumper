@@ -31,4 +31,5 @@ PKGS=(
 	core-filebuffers
 	ltk-core-refactoring
 	jdt-core-manipulation
+	e4-emf-xpath
 )
