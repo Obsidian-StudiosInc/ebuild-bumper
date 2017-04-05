@@ -41,4 +41,6 @@ PKGS=(
 	e4-ui-di
 	e4-core-commands
 	e4-ui-services
+	e4-ui-workbench
 )
+
