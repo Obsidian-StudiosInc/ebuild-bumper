@@ -37,4 +37,5 @@ PKGS=(
 	e4-core-contexts
 	e4-core-services
 	e4-ui-model-workbench
+	e4-core-di-extensions
 )
