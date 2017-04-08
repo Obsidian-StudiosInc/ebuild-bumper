@@ -32,6 +32,7 @@ PKGS=(
 	core-resources
 	jdt-core
 	jface
+	jface-databinding
 	jface-text
 	core-filebuffers
 	ltk-core-refactoring
