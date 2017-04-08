@@ -15,6 +15,7 @@ PKGS=(
 	equinox-common
 	core-commands
 	core-databinding-observable
+	core-databinding-property
 	text
 	equinox-util
 	core-jobs
