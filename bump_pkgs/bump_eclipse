@@ -23,6 +23,7 @@ PKGS=(
 	core-jobs
 	equinox-registry
 	e4-ui-css-core
+	e4-ui-workbench3
 	equinox-bidi
 	equinox-app
 	equinox-preferences
