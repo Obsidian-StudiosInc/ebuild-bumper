@@ -10,6 +10,7 @@ PKGS=(
 	e4-core-di-annotations
 	ecj
 	swt
+	e4-ui-widgets
 	osgi
 	osgi-services
 	equinox-common
