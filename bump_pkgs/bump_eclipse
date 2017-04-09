@@ -32,6 +32,7 @@ PKGS=(
 	core-filesystem
 	core-expressions
 	core-resources
+	help
 	jdt-core
 	jface
 	jface-databinding
@@ -55,4 +56,3 @@ PKGS=(
 	e4-ui-workbench-swt
 	e4-ui-workbench-renderers-swt
 )
-
