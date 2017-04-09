@@ -52,5 +52,6 @@ PKGS=(
 	e4-ui-css-swt
 	e4-ui-bindings
 	e4-ui-css-swt-theme
+	e4-ui-workbench-swt
 )
 
