@@ -56,4 +56,5 @@ PKGS=(
 	e4-ui-workbench-swt
 	e4-ui-workbench-renderers-swt
 	e4-ui-workbench-addons-swt
+	ui-workbench
 )
