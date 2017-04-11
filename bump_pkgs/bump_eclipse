@@ -32,6 +32,7 @@ PKGS=(
 	core-filesystem
 	core-expressions
 	core-resources
+	compare-core
 	help
 	jdt-core
 	jface
