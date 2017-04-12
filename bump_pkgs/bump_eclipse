@@ -68,4 +68,5 @@ PKGS=(
 	ui-forms
 	ui-views
 	ui-ide
+	ui-editors
 )
