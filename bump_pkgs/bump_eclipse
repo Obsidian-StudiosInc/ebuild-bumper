@@ -29,6 +29,7 @@ PKGS=(
 	equinox-bidi
 	equinox-app
 	equinox-preferences
+	equinox-security
 	core-contenttype
 	core-runtime
 	core-filesystem
