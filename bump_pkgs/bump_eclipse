@@ -14,6 +14,7 @@ PKGS=(
 	osgi
 	osgi-services
 	equinox-common
+	equinox-p2-core
 	core-commands
 	core-databinding-observable
 	core-databinding-property
