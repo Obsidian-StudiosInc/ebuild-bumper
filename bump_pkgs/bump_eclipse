@@ -31,6 +31,7 @@ PKGS=(
 	equinox-preferences
 	equinox-security
 	equinox-p2-repository
+	equinox-p2-metadata-repository
 	core-contenttype
 	core-runtime
 	core-filesystem
