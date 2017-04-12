@@ -69,4 +69,5 @@ PKGS=(
 	ui-views
 	ui-ide
 	ui-editors
+	compare
 )
