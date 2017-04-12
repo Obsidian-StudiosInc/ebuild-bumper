@@ -67,4 +67,5 @@ PKGS=(
 	ui-workbench-texteditor
 	ui-forms
 	ui-views
+	ui-ide
 )
