@@ -73,4 +73,5 @@ PKGS=(
 	ui-editors
 	compare
 	team-ui
+	ltk-ui-refactoring
 )
