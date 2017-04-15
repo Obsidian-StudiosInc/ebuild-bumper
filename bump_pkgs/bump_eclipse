@@ -39,6 +39,7 @@ PKGS=(
 	core-expressions
 	core-resources
 	compare-core
+	team-core
 	help
 	jdt-core
 	jface
