@@ -65,6 +65,7 @@ PKGS=(
 	e4-ui-workbench-renderers-swt
 	e4-ui-workbench-addons-swt
 	ui-workbench
+	ui-navigator
 	ui-workbench-texteditor
 	ui-forms
 	ui-views
