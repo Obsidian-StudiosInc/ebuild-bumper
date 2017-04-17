@@ -29,6 +29,7 @@ PKGS=(
 	equinox-bidi
 	equinox-app
 	equinox-preferences
+	core-variables
 	equinox-security
 	equinox-p2-repository
 	equinox-p2-metadata-repository
