@@ -45,6 +45,7 @@ PKGS=(
 	help
 	jdt-core
 	jdt-debug
+	jdt-launching
 	jface
 	jface-databinding
 	jface-text
