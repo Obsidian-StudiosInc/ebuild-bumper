@@ -78,4 +78,5 @@ PKGS=(
 	compare
 	team-ui
 	ltk-ui-refactoring
+	search
 )
