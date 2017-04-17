@@ -44,6 +44,7 @@ PKGS=(
 	team-core
 	help
 	jdt-core
+	jdt-debug
 	jface
 	jface-databinding
 	jface-text
