@@ -71,6 +71,7 @@ PKGS=(
 	ui-workbench
 	ui-navigator
 	ui-workbench-texteditor
+	ui-console
 	ui-forms
 	ui-views
 	ui-ide
