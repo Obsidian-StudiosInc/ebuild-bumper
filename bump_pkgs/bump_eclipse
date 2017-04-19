@@ -81,4 +81,5 @@ PKGS=(
 	team-ui
 	ltk-ui-refactoring
 	search
+	jdt-ui
 )
