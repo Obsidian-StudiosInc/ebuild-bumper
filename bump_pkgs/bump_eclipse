@@ -76,6 +76,7 @@ PKGS=(
 	ui-views
 	ui-ide
 	ui-editors
+	debug-ui
 	compare
 	team-ui
 	ltk-ui-refactoring
