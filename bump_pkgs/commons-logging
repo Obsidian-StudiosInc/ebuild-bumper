@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="commons-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	logging
+	logging-adapters
+)
