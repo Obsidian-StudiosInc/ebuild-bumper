@@ -203,11 +203,13 @@ clean() {
 
 		[[ ${#EBUILDS[@]} -le 1 ]] && continue
 
-		local start=1
-		if [[ ${EBUILDS[@]} == *"9999"* ]]; then
-			[[ ${#EBUILDS[@]} -eq 2 ]] && continue
-			let start=2
-		fi
+		local e start=1
+		for e in "${EBUILDS[@]}"; do
+			if [[ "${e}" == *"9999"* ]]; then
+				[[ ${#EBUILDS[@]} -eq 2 ]] && continue
+				let start=2
+			fi
+		done
 
 		# Remove single version if specified otherwise clean all
 		# Needs to be modified for stable and ~arch cleaning
