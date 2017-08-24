@@ -8,5 +8,6 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	poi
+	poi-ooxml-schemas
 	poi-ooxml
 )
