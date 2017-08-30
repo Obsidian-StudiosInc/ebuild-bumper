@@ -10,4 +10,5 @@ PKGS=(
 	core
 	props
 	bean
+	upload
 )
