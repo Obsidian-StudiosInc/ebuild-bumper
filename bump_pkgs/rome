@@ -7,6 +7,6 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
-	rome-util
+	rome-utils
 	rome
 )
