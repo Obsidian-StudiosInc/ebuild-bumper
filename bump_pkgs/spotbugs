@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT=""
+BASE=""
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	dev-java/spotbugs-annotations
+	dev-util/spotbugs
+)
