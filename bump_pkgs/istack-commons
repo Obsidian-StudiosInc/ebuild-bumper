@@ -5,9 +5,10 @@ CAT="dev-java"
 BASE="istack-commons-"
 DEPS=""
 
-#Packages, order matters
+#Packages, order does not matter
 PKGS=(
 	buildtools
 	runtime
 	soimp
+	tools
 )
