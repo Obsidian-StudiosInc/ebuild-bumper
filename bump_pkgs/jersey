@@ -11,6 +11,7 @@ PKGS=(
 	core-common
 	core-client
 	connectors-jetty
+	connectors-netty
 	core-server
 	entity-filtering
 	media-json-jackson
