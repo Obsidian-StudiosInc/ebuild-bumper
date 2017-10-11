@@ -10,6 +10,7 @@ PKGS=(
 	guava
 	core-common
 	core-client
+	connectors-jetty
 	core-server
 	entity-filtering
 	media-json-jackson
