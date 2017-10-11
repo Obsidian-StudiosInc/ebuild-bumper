@@ -12,6 +12,7 @@ PKGS=(
 	core-client
 	core-server
 	entity-filtering
+	media-json-jackson
 	container-servlet-core
 	media-multipart
 	security-oauth1-signature
