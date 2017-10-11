@@ -20,4 +20,5 @@ PKGS=(
 	codec-memcache
 	codec-socks
 	codec-smtp
+	handler-proxy
 )
