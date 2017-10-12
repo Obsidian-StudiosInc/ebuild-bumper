@@ -18,6 +18,7 @@ PKGS=(
 	media-json-jackson
 	security-oauth2-client
 	container-servlet-core
+	container-jetty-servlet
 	media-multipart
 	security-oauth1-signature
 	security-oauth1-client
