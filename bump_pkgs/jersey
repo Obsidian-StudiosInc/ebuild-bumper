@@ -15,6 +15,7 @@ PKGS=(
 	core-server
 	container-jetty-http
 	entity-filtering
+	inject-hk2
 	media-json-jackson
 	security-oauth2-client
 	container-servlet-core
