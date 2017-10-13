@@ -7,7 +7,6 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
-	guava
 	core-common
 	core-client
 	connectors-jetty
