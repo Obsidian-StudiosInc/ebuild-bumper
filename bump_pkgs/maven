@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	artifact
 	builder-support
+	settings
 )
