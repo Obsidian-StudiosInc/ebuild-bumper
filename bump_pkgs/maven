@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="maven-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	artifact
+	builder-support
+)
