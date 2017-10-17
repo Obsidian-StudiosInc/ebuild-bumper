@@ -5,7 +5,8 @@ CAT="dev-java"
 BASE="plexus-"
 DEPS=""
 
-#Packages, order matters
+#Packages, order does not matter
 PKGS=(
+	component-annotations
 	container-default
 )
