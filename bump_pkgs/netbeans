@@ -15,6 +15,7 @@ PKGS=(
 	openide-util-ui
 	api-annotations-common
 	openide-filesystems
+	api-java-classpath
 	openide-modules
 	api-progress
 	api-progress-nb
