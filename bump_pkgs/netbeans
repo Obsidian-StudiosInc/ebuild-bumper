@@ -15,5 +15,6 @@ PKGS=(
 	openide-filesystems
 	openide-modules
 	api-progress
+	api-progress-nb
 	openide-awt
 )
