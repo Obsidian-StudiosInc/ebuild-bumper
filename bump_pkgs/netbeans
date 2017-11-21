@@ -17,4 +17,5 @@ PKGS=(
 	api-progress
 	api-progress-nb
 	openide-awt
+	openide-dialogs
 )
