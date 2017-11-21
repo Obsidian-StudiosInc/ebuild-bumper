@@ -10,5 +10,6 @@ PKGS=(
 	ide
 	openide-util-lookup
 	openide-util
+	openide-util-ui
 	openide-filesystems
 )
