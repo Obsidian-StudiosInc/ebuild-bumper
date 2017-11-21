@@ -22,4 +22,5 @@ PKGS=(
 	openide-dialogs
 	openide-nodes
 	openide-windows
+	o-n-swing-tabcontrol
 )
