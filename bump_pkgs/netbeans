@@ -11,5 +11,6 @@ PKGS=(
 	openide-util-lookup
 	openide-util
 	openide-util-ui
+	api-annotations-common
 	openide-filesystems
 )
