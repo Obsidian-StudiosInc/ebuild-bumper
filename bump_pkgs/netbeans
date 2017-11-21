@@ -13,4 +13,5 @@ PKGS=(
 	openide-util-ui
 	api-annotations-common
 	openide-filesystems
+	openide-awt
 )
