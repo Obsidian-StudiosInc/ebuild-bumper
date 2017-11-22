@@ -20,6 +20,7 @@ PKGS=(
 	api-intent
 	api-io
 	api-java-classpath
+	api-templates
 	editor-mimelookup
 	openide-modules
 	api-progress
