@@ -27,6 +27,7 @@ PKGS=(
 	api-progress
 	api-progress-nb
 	core-startup-base
+	keyring
 	o-n-bootstrap
 	openide-awt
 	openide-dialogs
