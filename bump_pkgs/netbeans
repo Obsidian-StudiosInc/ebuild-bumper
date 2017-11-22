@@ -30,5 +30,6 @@ PKGS=(
 	openide-dialogs
 	openide-nodes
 	openide-windows
+	openide-text
 	o-n-swing-tabcontrol
 )
