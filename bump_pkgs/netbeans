@@ -23,6 +23,7 @@ PKGS=(
 	api-templates
 	editor-mimelookup
 	openide-io
+	openide-execution
 	openide-modules
 	api-java
 	api-progress
