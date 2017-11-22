@@ -25,6 +25,7 @@ PKGS=(
 	openide-modules
 	api-progress
 	api-progress-nb
+	o-n-bootstrap
 	openide-awt
 	openide-dialogs
 	openide-nodes
