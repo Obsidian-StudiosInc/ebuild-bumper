@@ -43,4 +43,5 @@ PKGS=(
 	openide-explorer
 	openide-compat
 	openide-loaders
+	core-ide
 )
