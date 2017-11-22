@@ -37,6 +37,7 @@ PKGS=(
 	openide-windows
 	openide-text
 	openide-actions
+	openide-options
 	o-n-swing-tabcontrol
 	openide-explorer
 )
