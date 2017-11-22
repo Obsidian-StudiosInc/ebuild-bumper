@@ -41,4 +41,5 @@ PKGS=(
 	openide-options
 	o-n-swing-tabcontrol
 	openide-explorer
+	openide-compat
 )
