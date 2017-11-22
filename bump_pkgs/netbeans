@@ -42,4 +42,5 @@ PKGS=(
 	o-n-swing-tabcontrol
 	openide-explorer
 	openide-compat
+	openide-loaders
 )
