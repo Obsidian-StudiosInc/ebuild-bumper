@@ -46,4 +46,5 @@ PKGS=(
 	openide-loaders
 	core-ide
 	sampler
+	o-n-core
 )
