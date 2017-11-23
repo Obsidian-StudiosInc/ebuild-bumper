@@ -10,6 +10,7 @@ PKGS=(
 	editor-util
 	ide
 	o-n-swing-outline
+	o-n-swing-plaf
 	openide-util-lookup
 	openide-util
 	openide-util-ui
