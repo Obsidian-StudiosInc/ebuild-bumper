@@ -26,6 +26,7 @@ PKGS=(
 	openide-io
 	openide-execution
 	openide-modules
+	projectapi
 	api-java
 	api-progress
 	api-progress-nb
