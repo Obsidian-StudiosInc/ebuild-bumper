@@ -13,6 +13,7 @@ PKGS=(
 	o-n-swing-plaf
 	openide-util-lookup
 	openide-util
+	lexer
 	openide-util-ui
 	api-annotations-common
 	openide-filesystems
