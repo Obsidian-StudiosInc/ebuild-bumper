@@ -14,6 +14,7 @@ PKGS=(
 	openide-util-lookup
 	openide-util
 	lexer
+	java-lexer
 	openide-util-ui
 	api-annotations-common
 	openide-filesystems
