@@ -48,4 +48,5 @@ PKGS=(
 	core-ide
 	sampler
 	o-n-core
+	options-api
 )
