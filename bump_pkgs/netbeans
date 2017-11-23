@@ -25,6 +25,7 @@ PKGS=(
 	api-java-classpath
 	api-templates
 	editor-mimelookup
+	editor-document
 	openide-io
 	openide-execution
 	openide-modules
