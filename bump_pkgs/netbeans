@@ -26,6 +26,7 @@ PKGS=(
 	api-templates
 	editor-mimelookup
 	editor-document
+	parsing-api
 	openide-io
 	openide-execution
 	openide-modules
