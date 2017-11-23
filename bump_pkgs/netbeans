@@ -47,6 +47,7 @@ PKGS=(
 	openide-loaders
 	core-ide
 	sampler
+	settings
 	o-n-core
 	options-api
 )
