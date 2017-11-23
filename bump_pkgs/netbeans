@@ -30,6 +30,7 @@ PKGS=(
 	openide-execution
 	openide-modules
 	editor-settings
+	masterfs
 	projectapi
 	api-java
 	api-progress
