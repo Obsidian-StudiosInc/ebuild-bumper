@@ -50,4 +50,5 @@ PKGS=(
 	settings
 	o-n-core
 	options-api
+	core-windows
 )
