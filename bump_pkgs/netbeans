@@ -31,6 +31,7 @@ PKGS=(
 	openide-execution
 	openide-modules
 	editor-settings
+	filesystems-compat8
 	masterfs
 	masterfs-linux
 	masterfs-nio2
