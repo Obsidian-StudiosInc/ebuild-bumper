@@ -58,6 +58,7 @@ PKGS=(
 	sampler
 	settings
 	o-n-core
+	core-ui
 	options-api
 	core-windows
 	core-multitabs
