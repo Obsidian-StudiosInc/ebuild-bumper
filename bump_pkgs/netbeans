@@ -33,6 +33,7 @@ PKGS=(
 	editor-settings
 	masterfs
 	masterfs-linux
+	masterfs-nio2
 	o-n-upgrader
 	parsing-lucene
 	projectapi
