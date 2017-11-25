@@ -32,6 +32,7 @@ PKGS=(
 	openide-modules
 	editor-settings
 	masterfs
+	masterfs-linux
 	o-n-upgrader
 	parsing-lucene
 	projectapi
