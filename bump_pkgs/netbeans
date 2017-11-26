@@ -9,6 +9,7 @@ DEPS=""
 PKGS=(
 	editor-util
 	ide
+	libs-asm
 	o-n-swing-outline
 	o-n-swing-plaf
 	openide-util-lookup
