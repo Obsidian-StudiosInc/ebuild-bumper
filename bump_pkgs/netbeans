@@ -67,6 +67,7 @@ PKGS=(
 	core-ui
 	options-api
 	options-keymap
+	core-output2
 	core-windows
 	core-multitabs
 )
