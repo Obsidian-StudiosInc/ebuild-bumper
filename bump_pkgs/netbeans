@@ -52,6 +52,7 @@ PKGS=(
 	openide-nodes
 	openide-windows
 	core-io-ui
+	masterfs-ui
 	spi-quicksearch
 	openide-text
 	openide-actions
