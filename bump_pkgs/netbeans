@@ -46,6 +46,7 @@ PKGS=(
 	keyring
 	o-n-bootstrap
 	core-startup
+	core-osgi
 	openide-awt
 	openide-dialogs
 	openide-nodes
