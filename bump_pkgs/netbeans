@@ -54,6 +54,7 @@ PKGS=(
 	openide-text
 	openide-actions
 	openide-options
+	core-multiview
 	o-n-swing-tabcontrol
 	openide-explorer
 	openide-compat
