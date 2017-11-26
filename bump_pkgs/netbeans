@@ -45,6 +45,7 @@ PKGS=(
 	core-startup-base
 	keyring
 	o-n-bootstrap
+	sendopts
 	core-startup
 	core-osgi
 	openide-awt
