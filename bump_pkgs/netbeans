@@ -50,6 +50,7 @@ PKGS=(
 	openide-dialogs
 	openide-nodes
 	openide-windows
+	core-io-ui
 	spi-quicksearch
 	openide-text
 	openide-actions
