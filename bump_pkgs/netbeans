@@ -82,4 +82,5 @@ PKGS=(
 	core-output2
 	core-windows
 	core-multitabs
+	extbrowser
 )
