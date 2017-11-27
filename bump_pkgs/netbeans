@@ -15,6 +15,7 @@ PKGS=(
 	openide-util-lookup
 	openide-util
 	lexer
+	project-indexingbridge
 	java-lexer
 	openide-util-ui
 	api-annotations-common
