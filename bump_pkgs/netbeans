@@ -65,6 +65,7 @@ PKGS=(
 	openide-compat
 	openide-loaders
 	core-ide
+	projectuiapi
 	sampler
 	settings
 	spi-palette
