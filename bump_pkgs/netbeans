@@ -66,6 +66,7 @@ PKGS=(
 	core-ide
 	sampler
 	settings
+	spi-palette
 	templates
 	o-n-core
 	core-execution
