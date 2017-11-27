@@ -39,6 +39,7 @@ PKGS=(
 	o-n-upgrader
 	parsing-lucene
 	projectapi
+	projectuiapi-base
 	api-java
 	api-progress
 	api-progress-nb
