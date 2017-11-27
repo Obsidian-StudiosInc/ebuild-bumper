@@ -19,6 +19,7 @@ PKGS=(
 	java-lexer
 	openide-util-ui
 	api-annotations-common
+	extexecution-base
 	openide-filesystems
 	openide-filesystems-nb
 	queries
@@ -67,6 +68,7 @@ PKGS=(
 	openide-loaders
 	core-ide
 	projectuiapi
+	projectui
 	sampler
 	settings
 	spi-palette
