@@ -93,6 +93,7 @@ PKGS=(
 	options-api
 	options-keymap
 	editor-settings-storage
+	editor-fold-nbui
 	options-editor
 	diff
 	versioning-core
