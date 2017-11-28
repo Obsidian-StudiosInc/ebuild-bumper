@@ -81,6 +81,7 @@ PKGS=(
 	editor
 	editor-actions
 	editor-plain-lib
+	editor-plain
 	spi-palette
 	templates
 	o-n-core
