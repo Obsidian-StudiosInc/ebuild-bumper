@@ -72,6 +72,7 @@ PKGS=(
 	projectui
 	sampler
 	settings
+	editor-lib2
 	spi-palette
 	templates
 	o-n-core
