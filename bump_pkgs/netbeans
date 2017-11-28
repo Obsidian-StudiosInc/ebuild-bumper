@@ -86,6 +86,7 @@ PKGS=(
 	core-ui
 	options-api
 	options-keymap
+	editor-settings-storage
 	core-output2
 	core-windows
 	core-multitabs
