@@ -96,6 +96,7 @@ PKGS=(
 	options-editor
 	diff
 	versioning-core
+	versioning
 	core-output2
 	core-windows
 	core-multitabs
