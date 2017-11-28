@@ -73,6 +73,7 @@ PKGS=(
 	projectui
 	sampler
 	settings
+	editor-fold
 	editor-indent
 	editor-lib2
 	spi-palette
