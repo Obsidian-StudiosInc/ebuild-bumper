@@ -94,6 +94,7 @@ PKGS=(
 	options-keymap
 	editor-settings-storage
 	options-editor
+	diff
 	core-output2
 	core-windows
 	core-multitabs
