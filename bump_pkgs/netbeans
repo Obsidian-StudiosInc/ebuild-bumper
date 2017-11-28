@@ -78,6 +78,7 @@ PKGS=(
 	editor-indent
 	editor-lib2
 	editor-lib
+	editor
 	editor-actions
 	spi-palette
 	templates
