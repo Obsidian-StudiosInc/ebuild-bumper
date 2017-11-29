@@ -92,6 +92,7 @@ PKGS=(
 	editor-errorstripe
 	editor-plain-lib
 	editor-plain
+	editor-search
 	parsing-ui
 	refactoring-api
 	editor-global-format
