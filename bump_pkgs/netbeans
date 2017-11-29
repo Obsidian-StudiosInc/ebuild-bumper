@@ -53,6 +53,7 @@ PKGS=(
 	core-startup-base
 	keyring
 	o-n-bootstrap
+	autoupdate-services
 	parsing-indexing
 	sendopts
 	core-startup
