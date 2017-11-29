@@ -104,6 +104,7 @@ PKGS=(
 	core-ui
 	options-api
 	options-keymap
+	autoupdate-ui
 	editor-settings-storage
 	editor-fold-nbui
 	options-editor
