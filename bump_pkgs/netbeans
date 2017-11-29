@@ -90,6 +90,7 @@ PKGS=(
 	editor-plain-lib
 	editor-plain
 	refactoring-api
+	editor-global-format
 	spi-palette
 	templates
 	o-n-core
