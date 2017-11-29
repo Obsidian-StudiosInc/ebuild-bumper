@@ -105,6 +105,7 @@ PKGS=(
 	options-api
 	options-keymap
 	autoupdate-ui
+	autoupdate-pluginimporter
 	editor-settings-storage
 	editor-fold-nbui
 	options-editor
