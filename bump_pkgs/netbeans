@@ -88,6 +88,7 @@ PKGS=(
 	editor-errorstripe
 	editor-plain-lib
 	editor-plain
+	refactoring-api
 	spi-palette
 	templates
 	o-n-core
