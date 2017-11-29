@@ -73,6 +73,7 @@ PKGS=(
 	openide-explorer
 	openide-compat
 	openide-loaders
+	api-search
 	core-ide
 	projectuiapi
 	projectui
