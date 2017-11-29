@@ -86,6 +86,7 @@ PKGS=(
 	editor
 	editor-actions
 	editor-bookmarks
+	editor-bracesmatching
 	editor-completion
 	editor-errorstripe
 	editor-plain-lib
