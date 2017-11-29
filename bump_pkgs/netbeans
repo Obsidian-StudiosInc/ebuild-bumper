@@ -23,6 +23,7 @@ PKGS=(
 	openide-filesystems
 	openide-filesystems-nb
 	queries
+	spi-tasklist
 	api-intent
 	api-io
 	api-java-classpath
