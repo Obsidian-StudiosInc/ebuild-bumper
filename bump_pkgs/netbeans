@@ -101,6 +101,7 @@ PKGS=(
 	editor-settings-storage
 	editor-fold-nbui
 	options-editor
+	parsing-nb
 	diff
 	versioning-core
 	versioning
