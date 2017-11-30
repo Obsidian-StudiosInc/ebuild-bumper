@@ -22,6 +22,7 @@ PKGS=(
 	extexecution-base
 	openide-filesystems
 	openide-filesystems-nb
+	project-spi-intern
 	queries
 	spi-tasklist
 	api-intent
