@@ -78,6 +78,7 @@ PKGS=(
 	extexecution
 	masterfs-ui
 	spi-quicksearch
+	o-n-swing-dirchooser
 	openide-text
 	openide-actions
 	openide-options
