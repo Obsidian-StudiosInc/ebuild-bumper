@@ -35,6 +35,7 @@ PKGS=(
 	editor-guards
 	editor-settings-lib
 	api-xml
+	xml-catalog
 	parsing-api
 	openide-io
 	openide-execution
