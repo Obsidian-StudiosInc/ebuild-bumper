@@ -10,4 +10,5 @@ PKGS=(
 	html
 	html-boot
 	html-boot-fx
+	html-json
 )
