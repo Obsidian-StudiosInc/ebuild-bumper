@@ -55,6 +55,7 @@ PKGS=(
 	project-libraries
 	projectuiapi-base
 	project-ant
+	updatecenters
 	api-java
 	api-progress
 	api-progress-nb
