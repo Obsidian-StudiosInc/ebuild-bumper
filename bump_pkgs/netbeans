@@ -47,6 +47,7 @@ PKGS=(
 	parsing-lucene
 	projectapi
 	projectapi-nb
+	project-libraries
 	projectuiapi-base
 	api-java
 	api-progress
