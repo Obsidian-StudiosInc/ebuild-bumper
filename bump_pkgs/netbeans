@@ -66,6 +66,7 @@ PKGS=(
 	parsing-indexing
 	sendopts
 	core-startup
+	core-netigso
 	core-osgi
 	openide-awt
 	openide-dialogs
