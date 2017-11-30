@@ -58,6 +58,7 @@ PKGS=(
 	api-progress
 	api-progress-nb
 	core-startup-base
+	java-project
 	keyring
 	o-n-bootstrap
 	autoupdate-services
