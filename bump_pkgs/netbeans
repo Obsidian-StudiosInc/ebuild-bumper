@@ -42,6 +42,7 @@ PKGS=(
 	openide-modules
 	editor-settings
 	filesystems-compat8
+	java-platform
 	masterfs
 	masterfs-linux
 	masterfs-nio2
