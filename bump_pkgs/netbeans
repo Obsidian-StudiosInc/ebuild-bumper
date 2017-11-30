@@ -64,6 +64,7 @@ PKGS=(
 	o-n-bootstrap
 	autoupdate-services
 	parsing-indexing
+	java-preprocessorbridge
 	sendopts
 	autoupdate-cli
 	core-startup
