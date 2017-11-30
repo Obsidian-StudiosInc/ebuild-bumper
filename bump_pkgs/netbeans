@@ -34,6 +34,7 @@ PKGS=(
 	editor-errorstripe-api
 	editor-guards
 	editor-settings-lib
+	api-xml
 	parsing-api
 	openide-io
 	openide-execution
