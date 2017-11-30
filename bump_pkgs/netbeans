@@ -116,6 +116,7 @@ PKGS=(
 	editor-global-format
 	spi-palette
 	templates
+	templatesui
 	o-n-core
 	core-execution
 	core-ui
