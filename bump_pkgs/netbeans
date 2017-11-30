@@ -97,6 +97,7 @@ PKGS=(
 	sampler
 	settings
 	spi-navigator
+	utilities
 	editor-fold
 	editor-indent
 	editor-lib2
