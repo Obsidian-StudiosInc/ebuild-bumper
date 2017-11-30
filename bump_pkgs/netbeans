@@ -65,6 +65,7 @@ PKGS=(
 	autoupdate-services
 	parsing-indexing
 	sendopts
+	autoupdate-cli
 	core-startup
 	core-netigso
 	core-osgi
