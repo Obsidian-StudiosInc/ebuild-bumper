@@ -86,6 +86,7 @@ PKGS=(
 	project-spi-intern-impl
 	projectuiapi
 	projectui
+	project-ant-ui
 	sampler
 	settings
 	spi-navigator
