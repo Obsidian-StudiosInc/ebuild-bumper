@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	html
 	html-boot
+	html-boot-fx
 )
