@@ -77,6 +77,7 @@ PKGS=(
 	openide-loaders
 	api-search
 	core-ide
+	project-spi-intern-impl
 	projectuiapi
 	projectui
 	sampler
