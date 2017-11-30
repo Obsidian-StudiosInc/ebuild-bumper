@@ -98,6 +98,7 @@ PKGS=(
 	settings
 	spi-navigator
 	utilities
+	utilities-project
 	editor-fold
 	editor-indent
 	editor-lib2
