@@ -15,6 +15,7 @@ PKGS=(
 	o-n-swing-plaf
 	openide-util-lookup
 	openide-util
+	core-browser
 	lexer
 	project-indexingbridge
 	java-lexer
