@@ -33,6 +33,7 @@ PKGS=(
 	api-java-classpath
 	api-templates
 	editor-mimelookup
+	editor-mimelookup-impl
 	editor-document
 	editor-errorstripe-api
 	editor-guards
