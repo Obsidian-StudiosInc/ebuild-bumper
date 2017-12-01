@@ -141,6 +141,7 @@ PKGS=(
 	versioning-core
 	versioning
 	versioning-masterfs
+	versioning-system-cvss-installer
 	versioning-util
 	versioning-indexingbridge
 	versioning-ui
