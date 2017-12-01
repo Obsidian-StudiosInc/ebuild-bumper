@@ -142,6 +142,7 @@ PKGS=(
 	versioning
 	versioning-masterfs
 	versioning-util
+	versioning-indexingbridge
 	versioning-ui
 	core-output2
 	core-windows
