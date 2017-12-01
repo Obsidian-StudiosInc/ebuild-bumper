@@ -140,6 +140,7 @@ PKGS=(
 	diff
 	versioning-core
 	versioning
+	versioning-masterfs
 	versioning-util
 	versioning-ui
 	core-output2
