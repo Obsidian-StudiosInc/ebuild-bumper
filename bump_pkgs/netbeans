@@ -140,6 +140,7 @@ PKGS=(
 	diff
 	versioning-core
 	versioning
+	versioning-util
 	core-output2
 	core-windows
 	core-multitabs
