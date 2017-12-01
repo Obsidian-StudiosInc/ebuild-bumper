@@ -26,6 +26,7 @@ PKGS=(
 	openide-filesystems-nb
 	project-spi-intern
 	queries
+	libs-freemarker
 	spi-tasklist
 	api-intent
 	api-io
