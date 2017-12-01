@@ -135,6 +135,7 @@ PKGS=(
 	editor-fold-nbui
 	options-editor
 	parsing-nb
+	spellchecker
 	diff
 	versioning-core
 	versioning
