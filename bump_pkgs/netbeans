@@ -136,6 +136,7 @@ PKGS=(
 	options-editor
 	parsing-nb
 	spellchecker
+	team-commons
 	diff
 	versioning-core
 	versioning
