@@ -15,15 +15,15 @@ PKGS=(
 	o-n-swing-plaf
 	openide-util-lookup
 	openide-util
+	openide-util-ui
+	openide-filesystems
+	openide-filesystems-nb
 	core-browser
 	lexer
 	project-indexingbridge
 	java-lexer
-	openide-util-ui
 	api-annotations-common
 	extexecution-base
-	openide-filesystems
-	openide-filesystems-nb
 	project-spi-intern
 	queries
 	libs-freemarker
