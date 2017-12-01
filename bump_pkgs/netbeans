@@ -39,6 +39,7 @@ PKGS=(
 	editor-guards
 	editor-settings-lib
 	api-xml
+	spellchecker-apimodule
 	xml-catalog
 	parsing-api
 	openide-io
