@@ -141,6 +141,7 @@ PKGS=(
 	versioning-core
 	versioning
 	versioning-util
+	versioning-ui
 	core-output2
 	core-windows
 	core-multitabs
