@@ -92,6 +92,7 @@ PKGS=(
 	openide-compat
 	openide-loaders
 	api-search
+	api-xml-ui
 	core-ide
 	favorites
 	project-libraries-ui
