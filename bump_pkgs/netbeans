@@ -131,6 +131,7 @@ PKGS=(
 	options-api
 	options-java
 	options-keymap
+	o-apache-tools-ant-module
 	autoupdate-ui
 	autoupdate-pluginimporter
 	editor-settings-storage
