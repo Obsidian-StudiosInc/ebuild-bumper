@@ -92,6 +92,7 @@ PKGS=(
 	openide-loaders
 	api-search
 	core-ide
+	favorites
 	project-libraries-ui
 	project-spi-intern-impl
 	projectuiapi
