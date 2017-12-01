@@ -120,6 +120,7 @@ PKGS=(
 	parsing-ui
 	refactoring-api
 	editor-global-format
+	spi-editor-hints	
 	spi-palette
 	templates
 	templatesui
