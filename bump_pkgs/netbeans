@@ -129,6 +129,7 @@ PKGS=(
 	core-execution
 	core-ui
 	options-api
+	options-java
 	options-keymap
 	autoupdate-ui
 	autoupdate-pluginimporter
