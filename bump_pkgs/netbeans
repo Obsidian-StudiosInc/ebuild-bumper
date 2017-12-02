@@ -128,6 +128,7 @@ PKGS=(
 	spi-palette
 	templates
 	templatesui
+	xml-lexer
 	o-n-core
 	core-execution
 	core-ui
