@@ -120,6 +120,7 @@ PKGS=(
 	editor-plain-lib
 	editor-plain
 	editor-search
+	editor-structure
 	parsing-ui
 	refactoring-api
 	editor-global-format
