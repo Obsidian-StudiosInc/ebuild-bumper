@@ -152,6 +152,7 @@ PKGS=(
 	csl-api
 	xml-text
 	xml
+	xml-tax
 	parsing-nb
 	spellchecker
 	team-commons
