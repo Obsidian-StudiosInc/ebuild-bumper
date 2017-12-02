@@ -151,6 +151,7 @@ PKGS=(
 	options-editor
 	csl-api
 	xml-text
+	xml
 	parsing-nb
 	spellchecker
 	team-commons
