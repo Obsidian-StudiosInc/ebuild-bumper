@@ -42,6 +42,7 @@ PKGS=(
 	spellchecker-apimodule
 	xml-catalog
 	parsing-api
+	csl-types
 	openide-io
 	openide-execution
 	openide-modules
