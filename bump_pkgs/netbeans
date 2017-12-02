@@ -28,6 +28,7 @@ PKGS=(
 	queries
 	xml-xam
 	xml-schema-model
+	xml-axi
 	libs-freemarker
 	spi-tasklist
 	api-intent
