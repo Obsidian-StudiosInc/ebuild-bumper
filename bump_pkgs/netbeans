@@ -26,6 +26,7 @@ PKGS=(
 	extexecution-base
 	project-spi-intern
 	queries
+	xml-xam
 	libs-freemarker
 	spi-tasklist
 	api-intent
