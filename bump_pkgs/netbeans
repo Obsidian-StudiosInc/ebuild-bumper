@@ -143,6 +143,7 @@ PKGS=(
 	editor-fold-nbui
 	editor-codetemplates
 	jumpto
+	csl-api
 	o-apache-tools-ant-module
 	options-editor
 	parsing-nb
