@@ -137,12 +137,13 @@ PKGS=(
 	options-api
 	options-java
 	options-keymap
-	o-apache-tools-ant-module
 	autoupdate-ui
 	autoupdate-pluginimporter
 	editor-settings-storage
 	editor-fold-nbui
 	editor-codetemplates
+	jumpto
+	o-apache-tools-ant-module
 	options-editor
 	parsing-nb
 	spellchecker
