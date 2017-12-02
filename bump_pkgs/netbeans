@@ -142,6 +142,7 @@ PKGS=(
 	autoupdate-pluginimporter
 	editor-settings-storage
 	editor-fold-nbui
+	editor-codetemplates
 	options-editor
 	parsing-nb
 	spellchecker
