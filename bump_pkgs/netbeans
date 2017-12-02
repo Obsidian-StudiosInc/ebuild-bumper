@@ -115,6 +115,7 @@ PKGS=(
 	editor-bookmarks
 	editor-bracesmatching
 	editor-completion
+	editor-deprecated-pre65formatting
 	editor-errorstripe
 	editor-plain-lib
 	editor-plain
