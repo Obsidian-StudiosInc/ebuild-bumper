@@ -27,6 +27,7 @@ PKGS=(
 	project-spi-intern
 	queries
 	xml-xam
+	xml-schema-model
 	libs-freemarker
 	spi-tasklist
 	api-intent
