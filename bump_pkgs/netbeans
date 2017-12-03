@@ -167,6 +167,7 @@ PKGS=(
 	versioning-util
 	versioning-indexingbridge
 	versioning-ui
+	localhistory
 	core-output2
 	core-windows
 	core-multitabs
