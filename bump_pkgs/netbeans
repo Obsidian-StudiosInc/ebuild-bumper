@@ -171,6 +171,7 @@ PKGS=(
 	versioning-util
 	versioning-indexingbridge
 	versioning-ui
+	git
 	localhistory
 	core-output2
 	core-windows
