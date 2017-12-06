@@ -22,6 +22,7 @@ PKGS=(
 	lexer
 	lib-uihandler
 	libs-jsch-agentproxy
+	libs-git
 	project-indexingbridge
 	java-lexer
 	api-annotations-common
