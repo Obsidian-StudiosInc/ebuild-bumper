@@ -21,6 +21,7 @@ PKGS=(
 	core-browser
 	lexer
 	lib-uihandler
+	libs-jsch-agentproxy
 	project-indexingbridge
 	java-lexer
 	api-annotations-common
