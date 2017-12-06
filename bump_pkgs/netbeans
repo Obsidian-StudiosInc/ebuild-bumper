@@ -89,6 +89,7 @@ PKGS=(
 	core-io-ui
 	extexecution
 	masterfs-ui
+	progress-ui
 	spi-quicksearch
 	o-n-swing-dirchooser
 	openide-text
