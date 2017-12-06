@@ -144,6 +144,7 @@ PKGS=(
 	options-api
 	options-java
 	options-keymap
+	uihandler
 	autoupdate-ui
 	autoupdate-pluginimporter
 	editor-settings-storage
