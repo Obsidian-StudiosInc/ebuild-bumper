@@ -120,6 +120,7 @@ PKGS=(
 	utilities
 	utilities-project
 	xml-catalog-ui
+	xml-multiview
 	editor-fold
 	editor-indent
 	editor-lib2
