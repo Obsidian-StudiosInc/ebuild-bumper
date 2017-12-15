@@ -128,6 +128,7 @@ PKGS=(
 	editor-completion
 	editor-deprecated-pre65formatting
 	editor-errorstripe
+	editor-indent-support
 	editor-plain-lib
 	editor-plain
 	editor-search
