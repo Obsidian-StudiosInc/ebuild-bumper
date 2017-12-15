@@ -11,6 +11,7 @@ PKGS=(
 	editor-util
 	ide
 	libs-asm
+	projectui-buildmenu
 	o-n-swing-outline
 	o-n-swing-plaf
 	openide-util-lookup
