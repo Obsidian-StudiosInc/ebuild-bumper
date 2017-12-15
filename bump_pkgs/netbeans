@@ -169,6 +169,7 @@ PKGS=(
 	spellchecker
 	team-commons
 	diff
+	css-model
 	versioning-core
 	versioning
 	versioning-masterfs
