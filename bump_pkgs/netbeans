@@ -66,6 +66,7 @@ PKGS=(
 	projectuiapi-base
 	project-ant
 	updatecenters
+	web-common
 	xml-core
 	api-java
 	api-progress
