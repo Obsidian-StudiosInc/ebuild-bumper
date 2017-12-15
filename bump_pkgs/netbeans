@@ -166,6 +166,7 @@ PKGS=(
 	options-editor
 	csl-api
 	css-lib
+	editor-indent-project
 	xml-text
 	xml
 	xml-tax
