@@ -8,6 +8,7 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	classfile
+	core-kit
 	editor-util
 	ide
 	libs-asm
