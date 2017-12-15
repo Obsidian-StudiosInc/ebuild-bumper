@@ -119,6 +119,7 @@ PKGS=(
 	spi-navigator
 	utilities
 	utilities-project
+	xml-catalog-ui
 	editor-fold
 	editor-indent
 	editor-lib2
