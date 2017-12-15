@@ -105,6 +105,7 @@ PKGS=(
 	api-xml-ui
 	core-ide
 	favorites
+	java-platform-ui
 	javahelp
 	properties
 	project-libraries-ui
