@@ -104,6 +104,7 @@ PKGS=(
 	api-xml-ui
 	core-ide
 	favorites
+	javahelp
 	properties
 	project-libraries-ui
 	project-spi-intern-impl
