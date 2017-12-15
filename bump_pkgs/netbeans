@@ -161,6 +161,7 @@ PKGS=(
 	o-apache-tools-ant-module
 	options-editor
 	csl-api
+	css-lib
 	xml-text
 	xml
 	xml-tax
