@@ -207,7 +207,7 @@ clean() {
 		for e in "${EBUILDS[@]}"; do
 			if [[ "${e}" == *"9999"* ]]; then
 				[[ ${#EBUILDS[@]} -eq 2 ]] && continue
-				let start=2
+				(( start=2 ))
 			fi
 		done
 
