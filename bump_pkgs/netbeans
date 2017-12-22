@@ -171,6 +171,7 @@ PKGS=(
 	css-lib
 	editor-indent-project
 	xml-text
+	xml-schema-completion
 	xml
 	xml-tax
 	xml-tools
