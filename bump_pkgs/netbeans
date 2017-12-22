@@ -70,6 +70,7 @@ PKGS=(
 	project-libraries
 	projectuiapi-base
 	project-ant
+	terminal
 	updatecenters
 	web-common
 	xml-core
