@@ -97,6 +97,7 @@ PKGS=(
 	core-io-ui
 	extexecution
 	dlight-nativeexecution
+	dlight-nativeexecution-nb
 	masterfs-ui
 	progress-ui
 	spi-quicksearch
