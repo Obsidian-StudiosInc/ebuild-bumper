@@ -149,6 +149,7 @@ PKGS=(
 	parsing-ui
 	properties-syntax
 	refactoring-api
+	web-indent
 	xml-retriever
 	editor-global-format
 	spi-editor-hints	
