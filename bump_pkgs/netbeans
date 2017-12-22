@@ -162,6 +162,7 @@ PKGS=(
 	options-java
 	options-keymap
 	terminal-nb
+	dlight-terminal
 	uihandler
 	autoupdate-ui
 	autoupdate-pluginimporter
