@@ -30,6 +30,7 @@ PKGS=(
 	spi-actions
 	java-lexer
 	api-annotations-common
+	api-visual
 	editor-tools-storage
 	extexecution-base
 	project-spi-intern
