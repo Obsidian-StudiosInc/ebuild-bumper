@@ -22,6 +22,7 @@ PKGS=(
 	openide-filesystems-nb
 	core-browser
 	lexer
+	lib-terminalemulator
 	lib-uihandler
 	libs-jsch-agentproxy
 	libs-git
