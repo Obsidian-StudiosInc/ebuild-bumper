@@ -165,6 +165,7 @@ PKGS=(
 	terminal-nb
 	dlight-terminal
 	uihandler
+	web-common-ui
 	autoupdate-ui
 	autoupdate-pluginimporter
 	editor-settings-storage
