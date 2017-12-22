@@ -173,6 +173,7 @@ PKGS=(
 	xml-text
 	xml
 	xml-tax
+	xml-tools
 	parsing-nb
 	spellchecker
 	team-commons
