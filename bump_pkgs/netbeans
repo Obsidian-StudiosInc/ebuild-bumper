@@ -159,6 +159,7 @@ PKGS=(
 	options-api
 	options-java
 	options-keymap
+	terminal-nb
 	uihandler
 	autoupdate-ui
 	autoupdate-pluginimporter
