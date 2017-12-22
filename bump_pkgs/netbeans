@@ -189,6 +189,7 @@ PKGS=(
 	team-commons
 	diff
 	css-model
+	css-editor
 	versioning-core
 	versioning
 	versioning-masterfs
