@@ -10,4 +10,5 @@ PKGS=(
 	commons-core
 	commons-net
 	commons-repositories-core
+	tasks-core
 )
