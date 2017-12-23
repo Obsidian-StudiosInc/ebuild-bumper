@@ -188,6 +188,7 @@ PKGS=(
 	spellchecker
 	team-commons
 	bugtracking
+	bugtracking-commons
 	diff
 	css-model
 	css-editor
