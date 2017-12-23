@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	commons-core
 	commons-net
+	commons-repositories-core
 )
