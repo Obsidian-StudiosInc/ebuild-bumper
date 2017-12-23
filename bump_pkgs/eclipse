@@ -9,6 +9,7 @@ DEPS=""
 PKGS=(
 	e4-core-di-annotations
 	ecj
+	jdt-annotation
 	swt
 	e4-ui-widgets
 	osgi
