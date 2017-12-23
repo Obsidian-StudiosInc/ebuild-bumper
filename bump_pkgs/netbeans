@@ -187,6 +187,7 @@ PKGS=(
 	parsing-nb
 	spellchecker
 	team-commons
+	bugtracking
 	diff
 	css-model
 	css-editor
