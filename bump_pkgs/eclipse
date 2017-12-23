@@ -38,6 +38,7 @@ PKGS=(
 	core-runtime
 	core-filesystem
 	core-expressions
+	core-net
 	core-resources
 	core-variables
 	compare-core
