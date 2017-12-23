@@ -176,6 +176,7 @@ PKGS=(
 	jumpto
 	o-apache-tools-ant-module
 	options-editor
+	diff
 	csl-api
 	css-lib
 	editor-indent-project
@@ -189,7 +190,6 @@ PKGS=(
 	team-commons
 	bugtracking
 	bugtracking-commons
-	diff
 	css-model
 	css-editor
 	versioning-core
