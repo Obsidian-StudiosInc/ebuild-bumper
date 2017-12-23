@@ -199,6 +199,7 @@ PKGS=(
 	versioning-util
 	versioning-indexingbridge
 	versioning-ui
+	team-ide
 	git
 	localhistory
 	core-output2
