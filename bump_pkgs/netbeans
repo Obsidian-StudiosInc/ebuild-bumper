@@ -193,6 +193,7 @@ PKGS=(
 	css-model
 	css-editor
 	mylyn-util
+	localtasks
 	versioning-core
 	versioning
 	versioning-masterfs
