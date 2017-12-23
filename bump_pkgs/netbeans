@@ -192,6 +192,7 @@ PKGS=(
 	bugtracking-commons
 	css-model
 	css-editor
+	mylyn-util
 	versioning-core
 	versioning
 	versioning-masterfs
