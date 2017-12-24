@@ -197,6 +197,7 @@ PKGS=(
 	css-model
 	css-editor
 	html-editor
+	html-custom
 	mylyn-util
 	localtasks
 	versioning-core
