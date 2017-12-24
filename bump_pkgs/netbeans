@@ -195,6 +195,7 @@ PKGS=(
 	bugtracking-commons
 	css-model
 	css-editor
+	html-editor
 	mylyn-util
 	localtasks
 	versioning-core
