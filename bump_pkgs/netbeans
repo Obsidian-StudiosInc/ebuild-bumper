@@ -160,6 +160,7 @@ PKGS=(
 	templates
 	templatesui
 	xml-lexer
+	xml-xdm
 	o-n-core
 	core-execution
 	core-ui
