@@ -95,6 +95,7 @@ PKGS=(
 	openide-dialogs
 	openide-nodes
 	openide-windows
+	api-htmlui
 	core-io-ui
 	extexecution
 	dlight-nativeexecution
