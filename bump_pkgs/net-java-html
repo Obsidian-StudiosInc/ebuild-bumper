@@ -10,5 +10,6 @@ PKGS=(
 	html
 	html-boot
 	html-boot-fx
+	html-geo
 	html-json
 )
