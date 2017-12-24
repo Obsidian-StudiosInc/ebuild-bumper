@@ -182,6 +182,7 @@ PKGS=(
 	csl-api
 	css-lib
 	editor-indent-project
+	html
 	xml-text
 	xml-schema-completion
 	xml
