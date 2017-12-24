@@ -51,6 +51,7 @@ PKGS=(
 	editor-guards
 	editor-settings-lib
 	api-xml
+	html-lexer
 	spellchecker-apimodule
 	xml-catalog
 	parsing-api
