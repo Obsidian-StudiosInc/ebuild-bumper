@@ -148,6 +148,7 @@ PKGS=(
 	editor-search
 	editor-structure
 	html-editor-lib
+	html-parser
 	parsing-ui
 	properties-syntax
 	refactoring-api
