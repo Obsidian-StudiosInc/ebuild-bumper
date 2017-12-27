@@ -218,4 +218,5 @@ PKGS=(
 	core-multitabs
 	core-multitabs-project
 	extbrowser
+	web-browser-api
 )
