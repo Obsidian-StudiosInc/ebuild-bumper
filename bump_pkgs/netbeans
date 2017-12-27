@@ -191,6 +191,7 @@ PKGS=(
 	xml
 	xml-tax
 	xml-tools
+	xsl
 	parsing-nb
 	spellchecker
 	team-commons
