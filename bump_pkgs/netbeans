@@ -199,6 +199,7 @@ PKGS=(
 	bugtracking-commons
 	css-model
 	css-editor
+	css-prep
 	html-editor
 	html-custom
 	mylyn-util
