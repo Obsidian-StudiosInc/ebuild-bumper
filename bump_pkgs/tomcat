@@ -7,6 +7,7 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
+	dev-java/tomcat-juli
 	dev-java/tomcat-servlet-api
 	dev-java/tomcat-server
 	www-servers/tomcat
