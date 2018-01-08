@@ -9,6 +9,7 @@ DEPS=""
 PKGS=(
 	dev-java/tomcat-annotation-api
 	dev-java/tomcat-jaspic-api
+	dev-java/tomcat-jni
 	dev-java/tomcat-juli
 	dev-java/tomcat-util
 	dev-java/tomcat-servlet-api
