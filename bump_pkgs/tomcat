@@ -13,6 +13,7 @@ PKGS=(
 	dev-java/tomcat-juli
 	dev-java/tomcat-dbcp
 	dev-java/tomcat-util
+	dev-java/tomcat-websocket-api
 	dev-java/tomcat-servlet-api
 	dev-java/tomcat-api
 	dev-java/tomcat-jasper-el
