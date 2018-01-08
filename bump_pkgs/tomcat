@@ -14,6 +14,7 @@ PKGS=(
 	dev-java/tomcat-servlet-api
 	dev-java/tomcat-api
 	dev-java/tomcat-util-scan
+	dev-java/tomcat-jasper
 	dev-java/tomcat-server
 	www-servers/tomcat
 )
