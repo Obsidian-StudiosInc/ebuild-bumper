@@ -23,6 +23,7 @@ PKGS=(
 	dev-java/tomcat-catalina-ant
 	dev-java/tomcat-catalina-tribes
 	dev-java/tomcat-catalina-ha
+	dev-java/tomcat-catalina-storeconfig
 	dev-java/tomcat-jasper
 	dev-java/tomcat-websocket
 	dev-java/tomcat-server
