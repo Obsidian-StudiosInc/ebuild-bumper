@@ -20,6 +20,7 @@ PKGS=(
 	dev-java/tomcat-util-scan
 	dev-java/tomcat-coyote
 	dev-java/tomcat-catalina
+	dev-java/tomcat-bootstrap
 	dev-java/tomcat-catalina-ant
 	dev-java/tomcat-catalina-tribes
 	dev-java/tomcat-catalina-ha
