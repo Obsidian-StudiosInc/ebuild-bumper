@@ -27,6 +27,5 @@ PKGS=(
 	dev-java/tomcat-catalina-storeconfig
 	dev-java/tomcat-jasper
 	dev-java/tomcat-websocket
-	dev-java/tomcat-server
 	www-servers/tomcat
 )
