@@ -179,6 +179,9 @@ bump() {
 		repoman commit -m \
 			"${my_cat}/${my_pn}: Version bump ${OPV} -> ${NPV}" \
 			|| exit 1
+		# ensure repoman did not miss files in commit
+		git add .
+		git commit --amend --no-edit
 	done
 }
 
