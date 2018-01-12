@@ -152,10 +152,8 @@ PKGS=(
 	html-parser
 	parsing-ui
 	properties-syntax
-	refactoring-api
 	web-indent
 	xml-retriever
-	editor-global-format
 	spi-editor-hints	
 	spi-palette
 	templates
@@ -171,7 +169,6 @@ PKGS=(
 	terminal-nb
 	dlight-terminal
 	uihandler
-	web-common-ui
 	autoupdate-ui
 	autoupdate-pluginimporter
 	editor-settings-storage
@@ -182,6 +179,9 @@ PKGS=(
 	o-apache-tools-ant-module
 	options-editor
 	diff
+	refactoring-api
+	editor-global-format
+	web-common-ui
 	csl-api
 	css-lib
 	editor-indent-project
