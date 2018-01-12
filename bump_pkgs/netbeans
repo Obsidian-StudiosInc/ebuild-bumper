@@ -162,6 +162,7 @@ PKGS=(
 	xml-xdm
 	o-n-core
 	core-execution
+	core-network
 	options-api
 	core-ui
 	options-java
