@@ -195,6 +195,7 @@ PKGS=(
 	xml
 	xml-tax
 	xml-tools
+	xml-tools-java
 	xsl
 	parsing-nb
 	spellchecker
