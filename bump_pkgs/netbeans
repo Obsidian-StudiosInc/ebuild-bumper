@@ -152,6 +152,7 @@ PKGS=(
 	editor-structure
 	html-editor-lib
 	html-parser
+	java-editor-lib
 	parsing-ui
 	properties-syntax
 	web-indent
