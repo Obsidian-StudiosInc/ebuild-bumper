@@ -162,8 +162,8 @@ PKGS=(
 	xml-xdm
 	o-n-core
 	core-execution
-	core-ui
 	options-api
+	core-ui
 	options-java
 	options-keymap
 	terminal-nb
