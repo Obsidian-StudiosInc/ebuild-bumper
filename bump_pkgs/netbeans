@@ -105,11 +105,11 @@ PKGS=(
 	spi-quicksearch
 	o-n-swing-dirchooser
 	openide-text
-	openide-actions
 	openide-options
 	core-multiview
 	o-n-swing-tabcontrol
 	openide-explorer
+	openide-actions
 	openide-compat
 	openide-loaders
 	api-search
