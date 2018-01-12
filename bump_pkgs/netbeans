@@ -73,6 +73,7 @@ PKGS=(
 	project-libraries
 	projectuiapi-base
 	project-ant
+	java-completion
 	terminal
 	web-common
 	api-java
