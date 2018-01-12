@@ -85,14 +85,14 @@ PKGS=(
 	openide-dialogs
 	openide-nodes
 	openide-windows
-	autoupdate-services
-	updatecenters
 	xml-core
 	parsing-indexing
 	java-preprocessorbridge
 	sendopts
-	autoupdate-cli
 	core-startup
+	autoupdate-services
+	autoupdate-cli
+	updatecenters
 	core-netigso
 	core-osgi
 	api-htmlui
