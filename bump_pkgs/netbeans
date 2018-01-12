@@ -72,7 +72,6 @@ PKGS=(
 	projectuiapi-base
 	project-ant
 	terminal
-	updatecenters
 	web-common
 	xml-core
 	api-java
@@ -84,6 +83,7 @@ PKGS=(
 	keyring
 	o-n-bootstrap
 	autoupdate-services
+	updatecenters
 	parsing-indexing
 	java-preprocessorbridge
 	sendopts
