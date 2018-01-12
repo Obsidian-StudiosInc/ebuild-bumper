@@ -33,6 +33,7 @@ PKGS=(
 	api-visual
 	editor-tools-storage
 	extexecution-base
+	openide-awt
 	project-spi-intern
 	queries
 	xml-xam
@@ -73,7 +74,6 @@ PKGS=(
 	project-ant
 	terminal
 	web-common
-	xml-core
 	api-java
 	java-platform
 	api-progress
@@ -82,8 +82,12 @@ PKGS=(
 	java-project
 	keyring
 	o-n-bootstrap
+	openide-dialogs
+	openide-nodes
+	openide-windows
 	autoupdate-services
 	updatecenters
+	xml-core
 	parsing-indexing
 	java-preprocessorbridge
 	sendopts
@@ -91,10 +95,6 @@ PKGS=(
 	core-startup
 	core-netigso
 	core-osgi
-	openide-awt
-	openide-dialogs
-	openide-nodes
-	openide-windows
 	api-htmlui
 	core-io-ui
 	extexecution
