@@ -54,8 +54,6 @@ PKGS=(
 	html-lexer
 	spellchecker-apimodule
 	xml-catalog
-	parsing-api
-	csl-types
 	openide-io
 	openide-execution
 	openide-modules
@@ -67,6 +65,8 @@ PKGS=(
 	masterfs-nio2
 	o-n-upgrader
 	parsing-lucene
+	parsing-api
+	csl-types
 	projectapi
 	projectapi-nb
 	project-libraries
