@@ -183,6 +183,7 @@ PKGS=(
 	diff
 	refactoring-api
 	editor-global-format
+	java-source-base
 	web-common-ui
 	csl-api
 	css-lib
