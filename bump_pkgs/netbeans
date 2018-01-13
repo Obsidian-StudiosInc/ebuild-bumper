@@ -190,6 +190,7 @@ PKGS=(
 	java-sourceui
 	java-editor-base
 	java-project-ui
+	java-api-common
 	apisupport-project
 	web-common-ui
 	whitelist
