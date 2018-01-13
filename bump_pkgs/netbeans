@@ -190,6 +190,7 @@ PKGS=(
 	java-sourceui
 	java-editor-base
 	web-common-ui
+	whitelist
 	csl-api
 	css-lib
 	editor-indent-project
