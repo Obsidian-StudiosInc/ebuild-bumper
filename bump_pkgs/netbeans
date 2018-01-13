@@ -187,6 +187,7 @@ PKGS=(
 	editor-global-format
 	java-source-base
 	java-source
+	java-sourceui
 	java-editor-base
 	web-common-ui
 	csl-api
