@@ -101,6 +101,6 @@ Usage:
       --usage                Give a short usage message
   -V, --version              Print program version
 
-Copyright 2016-2017 Obsidian-Studios, Inc.
+Copyright 2016-2018 Obsidian-Studios, Inc.
 Distributed under the terms of The GNU Public License v3.0 (GPLv3)
 ```
