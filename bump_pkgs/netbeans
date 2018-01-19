@@ -57,6 +57,7 @@ PKGS=(
 	editor-settings-lib
 	api-xml
 	html-lexer
+	lexer-nbbridge
 	spellchecker-apimodule
 	xml-catalog
 	openide-io
