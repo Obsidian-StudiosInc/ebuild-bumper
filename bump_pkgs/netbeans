@@ -15,6 +15,7 @@ PKGS=(
 	lib-nbjavac
 	libs-asm
 	libs-antlr3-runtime
+	libs-antlr4-runtime
 	projectui-buildmenu
 	o-n-swing-outline
 	o-n-swing-plaf
