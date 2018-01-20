@@ -135,6 +135,7 @@ PKGS=(
 	sampler
 	settings
 	spi-navigator
+	spi-viewmodel
 	utilities
 	utilities-project
 	xml-catalog-ui
