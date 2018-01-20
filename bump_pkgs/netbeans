@@ -202,6 +202,7 @@ PKGS=(
 	java-project-ui
 	java-api-common
 	apisupport-project
+	apisupport-wizards
 	debugger-jpda
 	web-common-ui
 	whitelist
