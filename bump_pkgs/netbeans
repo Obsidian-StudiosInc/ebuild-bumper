@@ -78,6 +78,7 @@ PKGS=(
 	projectuiapi-base
 	project-ant
 	api-debugger
+	api-debugger-jpda
 	java-completion
 	terminal
 	web-common
