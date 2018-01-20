@@ -196,6 +196,7 @@ PKGS=(
 	refactoring-api
 	editor-global-format
 	java-source-base
+	java-source-compat8
 	java-source
 	java-sourceui
 	java-editor-base
