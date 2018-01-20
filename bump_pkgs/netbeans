@@ -192,6 +192,7 @@ PKGS=(
 	o-apache-tools-ant-module
 	options-editor
 	diff
+	spi-editor-hints-projects
 	refactoring-api
 	editor-global-format
 	java-source-base
