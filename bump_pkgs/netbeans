@@ -136,6 +136,7 @@ PKGS=(
 	settings
 	spi-navigator
 	spi-viewmodel
+	spi-debugger-jpda-ui
 	utilities
 	utilities-project
 	xml-catalog-ui
