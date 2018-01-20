@@ -162,6 +162,7 @@ PKGS=(
 	java-editor-lib
 	parsing-ui
 	properties-syntax
+	spi-debugger-ui
 	web-indent
 	xml-retriever
 	spi-editor-hints	
