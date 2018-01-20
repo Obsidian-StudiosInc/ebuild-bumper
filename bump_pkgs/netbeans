@@ -90,6 +90,7 @@ PKGS=(
 	java-project
 	keyring
 	o-n-bootstrap
+	apisupport-harness
 	openide-dialogs
 	openide-nodes
 	openide-windows
