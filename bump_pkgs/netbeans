@@ -56,6 +56,7 @@ PKGS=(
 	editor-guards
 	editor-settings-lib
 	api-xml
+	java-guards
 	html-lexer
 	lexer-nbbridge
 	spellchecker-apimodule
