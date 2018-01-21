@@ -226,6 +226,7 @@ PKGS=(
 	editor-indent-project
 	html
 	java-j2seproject
+	java-j2sedeploy
 	xml-text
 	xml-text-obsolete90
 	xml-schema-completion
