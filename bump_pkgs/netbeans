@@ -209,6 +209,7 @@ PKGS=(
 	java-project-ui
 	java-api-common
 	java-freeform
+	java-navigation
 	java-source-ant
 	java-j2seplatform
 	j2ee-metadata-model-support
