@@ -254,5 +254,6 @@ PKGS=(
 	core-multitabs-project
 	extbrowser
 	web-browser-api
+	ant-browsetask
 	css-visual
 )
