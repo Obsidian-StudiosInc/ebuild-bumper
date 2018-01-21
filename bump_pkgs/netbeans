@@ -11,6 +11,7 @@ PKGS=(
 	classfile
 	core-kit
 	editor-util
+	java-kit
 	ide
 	ide-kit
 	lib-nbjavac
