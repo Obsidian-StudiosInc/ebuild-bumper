@@ -199,6 +199,7 @@ PKGS=(
 	ant-grammar
 	options-editor
 	diff
+	gsf-testrunner-ui
 	spi-editor-hints-projects
 	refactoring-api
 	code-analysis
