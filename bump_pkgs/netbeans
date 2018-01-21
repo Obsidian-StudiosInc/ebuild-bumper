@@ -26,6 +26,7 @@ PKGS=(
 	openide-filesystems
 	openide-filesystems-nb
 	core-browser
+	j2ee-metadata
 	lexer
 	lib-terminalemulator
 	lib-uihandler
