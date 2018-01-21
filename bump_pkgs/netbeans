@@ -112,6 +112,7 @@ PKGS=(
 	extexecution
 	dlight-nativeexecution
 	dlight-nativeexecution-nb
+	gsf-testrunner
 	masterfs-ui
 	progress-ui
 	spi-quicksearch
