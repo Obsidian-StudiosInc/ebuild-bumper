@@ -200,6 +200,7 @@ PKGS=(
 	diff
 	spi-editor-hints-projects
 	refactoring-api
+	code-analysis
 	editor-global-format
 	java-source-base
 	java-source-compat8
