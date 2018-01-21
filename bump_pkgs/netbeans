@@ -201,6 +201,7 @@ PKGS=(
 	options-editor
 	diff
 	gsf-testrunner-ui
+	gototest
 	spi-editor-hints-projects
 	refactoring-api
 	code-analysis
