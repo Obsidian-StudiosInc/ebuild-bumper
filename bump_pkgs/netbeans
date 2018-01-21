@@ -113,6 +113,7 @@ PKGS=(
 	dlight-nativeexecution
 	dlight-nativeexecution-nb
 	gsf-testrunner
+	java-testrunner
 	masterfs-ui
 	progress-ui
 	spi-quicksearch
