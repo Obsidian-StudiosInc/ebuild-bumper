@@ -192,6 +192,7 @@ PKGS=(
 	editor-macros
 	jumpto
 	o-apache-tools-ant-module
+	ant-freeform
 	options-editor
 	diff
 	spi-editor-hints-projects
