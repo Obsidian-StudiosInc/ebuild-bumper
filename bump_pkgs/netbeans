@@ -193,6 +193,7 @@ PKGS=(
 	jumpto
 	o-apache-tools-ant-module
 	ant-freeform
+	ant-grammar
 	options-editor
 	diff
 	spi-editor-hints-projects
