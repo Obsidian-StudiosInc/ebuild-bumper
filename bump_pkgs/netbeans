@@ -205,6 +205,7 @@ PKGS=(
 	java-editor-base
 	java-project-ui
 	java-api-common
+	java-freeform
 	java-source-ant
 	apisupport-project
 	apisupport-wizards
