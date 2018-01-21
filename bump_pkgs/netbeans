@@ -212,6 +212,7 @@ PKGS=(
 	java-source-ant
 	java-j2seplatform
 	j2ee-metadata-model-support
+	j2ee-persistenceapi
 	apisupport-project
 	apisupport-wizards
 	debugger-jpda
