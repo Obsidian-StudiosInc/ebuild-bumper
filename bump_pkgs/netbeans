@@ -7,6 +7,7 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
+	ant-kit
 	classfile
 	core-kit
 	editor-util
