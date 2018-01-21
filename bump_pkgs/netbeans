@@ -224,6 +224,7 @@ PKGS=(
 	apisupport-project
 	apisupport-wizards
 	debugger-jpda
+	junit
 	web-common-ui
 	whitelist
 	csl-api
