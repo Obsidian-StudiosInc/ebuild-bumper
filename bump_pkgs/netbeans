@@ -206,6 +206,7 @@ PKGS=(
 	java-source-compat8
 	java-source
 	java-sourceui
+	java-debug
 	java-editor-base
 	java-project-ui
 	java-api-common
