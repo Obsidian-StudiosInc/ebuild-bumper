@@ -211,6 +211,7 @@ PKGS=(
 	java-freeform
 	java-source-ant
 	java-j2seplatform
+	j2ee-metadata-model-support
 	apisupport-project
 	apisupport-wizards
 	debugger-jpda
