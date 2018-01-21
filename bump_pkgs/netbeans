@@ -222,6 +222,7 @@ PKGS=(
 	css-lib
 	editor-indent-project
 	html
+	java-j2seproject
 	xml-text
 	xml-text-obsolete90
 	xml-schema-completion
