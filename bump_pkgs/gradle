@@ -8,5 +8,6 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	base-services
+	cli
 	messaging
 )
