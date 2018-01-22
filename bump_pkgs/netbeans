@@ -140,6 +140,7 @@ PKGS=(
 	projectui
 	project-ant-ui
 	sampler
+	server
 	settings
 	spi-navigator
 	spi-viewmodel
