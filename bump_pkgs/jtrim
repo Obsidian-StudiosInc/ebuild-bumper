@@ -10,4 +10,5 @@ PKGS=(
 	util
 	collections
 	concurrent
+	executor
 )
