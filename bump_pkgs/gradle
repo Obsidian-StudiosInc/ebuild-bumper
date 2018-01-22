@@ -9,5 +9,6 @@ DEPS=""
 PKGS=(
 	base-services
 	cli
+	build-option
 	messaging
 )
