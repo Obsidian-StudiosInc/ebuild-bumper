@@ -14,4 +14,5 @@ PKGS=(
 	property
 	access
 	ui-concurrent
+	swing-concurrent
 )
