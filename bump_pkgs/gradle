@@ -12,6 +12,7 @@ PKGS=(
 	cli
 	build-option
 	model-core
+	model-groovy
 	messaging
 	native
 	logging
