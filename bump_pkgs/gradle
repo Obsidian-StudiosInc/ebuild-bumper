@@ -12,4 +12,5 @@ PKGS=(
 	build-option
 	messaging
 	native
+	logging
 )
