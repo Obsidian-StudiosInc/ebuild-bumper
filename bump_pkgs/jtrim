@@ -15,4 +15,5 @@ PKGS=(
 	access
 	ui-concurrent
 	swing-concurrent
+	swing-property
 )
