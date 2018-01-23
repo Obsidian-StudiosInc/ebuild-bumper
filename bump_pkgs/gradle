@@ -24,4 +24,5 @@ PKGS=(
 	core-api
 	jvm-services
 	core
+	tooling-api
 )
