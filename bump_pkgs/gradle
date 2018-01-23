@@ -19,5 +19,6 @@ PKGS=(
 	process-services
 	resources
 	build-cache
+	core-api
 	jvm-services
 )
