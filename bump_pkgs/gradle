@@ -8,6 +8,7 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	base-services
+	base-services-groovy
 	cli
 	build-option
 	messaging
