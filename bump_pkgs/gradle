@@ -15,5 +15,6 @@ PKGS=(
 	messaging
 	native
 	logging
+	persistent-cache
 	process-services
 )
