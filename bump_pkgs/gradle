@@ -17,4 +17,5 @@ PKGS=(
 	logging
 	persistent-cache
 	process-services
+	resources
 )
