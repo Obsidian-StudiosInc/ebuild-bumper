@@ -227,6 +227,7 @@ PKGS=(
 	apisupport-project
 	apisupport-wizards
 	debugger-jpda
+	debugger-jpda-ant
 	junit
 	web-common-ui
 	whitelist
