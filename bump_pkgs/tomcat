@@ -7,7 +7,7 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
-	dev-java/tomcat-annotation-api
+	dev-java/tomcat-annotations-api
 	dev-java/tomcat-jaspic-api
 	dev-java/tomcat-jni
 	dev-java/tomcat-juli
