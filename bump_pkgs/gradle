@@ -23,4 +23,5 @@ PKGS=(
 	build-cache
 	core-api
 	jvm-services
+	core
 )
