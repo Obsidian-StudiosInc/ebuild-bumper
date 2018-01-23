@@ -233,6 +233,7 @@ PKGS=(
 	csl-api
 	css-lib
 	editor-indent-project
+	gsf-codecoverage
 	html
 	java-j2seproject
 	java-j2sedeploy
