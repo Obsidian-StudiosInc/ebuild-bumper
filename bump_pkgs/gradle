@@ -13,4 +13,5 @@ PKGS=(
 	messaging
 	native
 	logging
+	process-services
 )
