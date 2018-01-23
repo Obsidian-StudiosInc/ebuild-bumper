@@ -11,6 +11,7 @@ PKGS=(
 	base-services-groovy
 	cli
 	build-option
+	model-core
 	messaging
 	native
 	logging
