@@ -18,4 +18,5 @@ PKGS=(
 	persistent-cache
 	process-services
 	resources
+	build-cache
 )
