@@ -229,6 +229,7 @@ PKGS=(
 	debugger-jpda
 	debugger-jpda-ant
 	debugger-jpda-ui
+	debugger-jpda-visual
 	junit
 	web-common-ui
 	whitelist
