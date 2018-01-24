@@ -101,6 +101,7 @@ PKGS=(
 	xml-core
 	parsing-indexing
 	java-preprocessorbridge
+	java-source-queries
 	sendopts
 	core-startup
 	autoupdate-services
