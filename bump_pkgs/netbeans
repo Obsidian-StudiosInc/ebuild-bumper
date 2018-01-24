@@ -221,6 +221,7 @@ PKGS=(
 	java-freeform
 	java-navigation
 	java-source-ant
+	java-source-queriesimpl
 	java-j2seplatform
 	java-j2seprofiles
 	j2ee-metadata-model-support
