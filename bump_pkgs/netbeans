@@ -244,6 +244,7 @@ PKGS=(
 	spi-java-hints
 	apisupport-refactoring
 	java-hints-legacy-spi
+	apisupport-ant
 	java-metrics
 	java-testrunner-ui
 	javadoc
