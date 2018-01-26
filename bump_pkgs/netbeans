@@ -242,6 +242,7 @@ PKGS=(
 	form-refactoring
 	junit
 	spi-java-hints
+	apisupport-refactoring
 	java-hints-legacy-spi
 	java-metrics
 	java-testrunner-ui
