@@ -241,6 +241,7 @@ PKGS=(
 	form-binding
 	form-refactoring
 	junit
+	spi-java-hints
 	web-common-ui
 	whitelist
 	csl-api
