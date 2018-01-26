@@ -244,6 +244,7 @@ PKGS=(
 	spi-java-hints
 	java-hints-legacy-spi
 	java-metrics
+	javadoc
 	refactoring-java
 	web-common-ui
 	whitelist
