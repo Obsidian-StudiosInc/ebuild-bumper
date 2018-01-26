@@ -12,6 +12,7 @@ PKGS=(
 	core-kit
 	editor-util
 	java-kit
+	junitlib
 	ide
 	ide-kit
 	lib-nbjavac
