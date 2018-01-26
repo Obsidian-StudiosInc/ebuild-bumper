@@ -187,6 +187,7 @@ PKGS=(
 	core-network
 	options-api
 	core-ui
+	extexecution-impl
 	options-java
 	options-keymap
 	terminal-nb
