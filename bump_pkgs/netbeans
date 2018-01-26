@@ -253,6 +253,7 @@ PKGS=(
 	gsf-codecoverage
 	html
 	java-editor
+	java-hints
 	java-j2seproject
 	java-j2sedeploy
 	xml-text
