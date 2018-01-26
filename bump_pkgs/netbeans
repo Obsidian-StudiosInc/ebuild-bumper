@@ -222,6 +222,7 @@ PKGS=(
 	java-project-ui
 	java-api-common
 	java-freeform
+	java-module-graph
 	java-navigation
 	java-source-ant
 	java-source-queriesimpl
