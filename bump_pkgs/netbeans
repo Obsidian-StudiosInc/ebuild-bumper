@@ -250,6 +250,7 @@ PKGS=(
 	editor-indent-project
 	gsf-codecoverage
 	html
+	java-editor
 	java-j2seproject
 	java-j2sedeploy
 	xml-text
