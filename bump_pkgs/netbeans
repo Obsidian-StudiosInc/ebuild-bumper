@@ -235,6 +235,7 @@ PKGS=(
 	debugger-jpda-visual
 	form
 	form-nb
+	form-refactoring
 	junit
 	web-common-ui
 	whitelist
