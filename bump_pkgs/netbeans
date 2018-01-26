@@ -246,6 +246,7 @@ PKGS=(
 	java-metrics
 	java-testrunner-ui
 	javadoc
+	junit-ui
 	refactoring-java
 	web-common-ui
 	whitelist
