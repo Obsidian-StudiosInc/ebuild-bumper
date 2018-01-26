@@ -242,6 +242,7 @@ PKGS=(
 	form-refactoring
 	junit
 	spi-java-hints
+	java-metrics
 	refactoring-java
 	web-common-ui
 	whitelist
