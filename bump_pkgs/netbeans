@@ -250,6 +250,7 @@ PKGS=(
 	javadoc
 	junit-ui
 	refactoring-java
+	java-hints-ui
 	web-common-ui
 	whitelist
 	csl-api
