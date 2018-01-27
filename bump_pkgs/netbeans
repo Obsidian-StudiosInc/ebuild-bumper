@@ -240,6 +240,7 @@ PKGS=(
 	form-nb
 	form-binding
 	form-refactoring
+	i18n
 	junit
 	spi-java-hints
 	apisupport-refactoring
