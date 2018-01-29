@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="protobuf-java-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	core
+	util
+)
