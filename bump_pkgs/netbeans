@@ -85,7 +85,6 @@ PKGS=(
 	project-ant
 	api-debugger
 	api-debugger-jpda
-	java-completion
 	terminal
 	web-common
 	api-java
@@ -217,6 +216,7 @@ PKGS=(
 	java-source-compat8
 	java-source
 	java-sourceui
+	java-completion
 	java-debug
 	java-editor-base
 	java-project-ui
