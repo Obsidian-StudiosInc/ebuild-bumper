@@ -230,8 +230,6 @@ PKGS=(
 	java-j2seprofiles
 	j2ee-metadata-model-support
 	j2ee-persistenceapi
-	apisupport-project
-	apisupport-wizards
 	debugger-jpda
 	debugger-jpda-ant
 	debugger-jpda-ui
@@ -243,9 +241,7 @@ PKGS=(
 	i18n
 	junit
 	spi-java-hints
-	apisupport-refactoring
 	java-hints-legacy-spi
-	apisupport-ant
 	java-metrics
 	java-testrunner-ui
 	javadoc
@@ -271,6 +267,10 @@ PKGS=(
 	xml-tools
 	xml-tools-java
 	xsl
+	apisupport-project
+	apisupport-ant
+	apisupport-refactoring
+	apisupport-wizards
 	parsing-nb
 	spellchecker
 	team-commons
