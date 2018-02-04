@@ -257,6 +257,7 @@ PKGS=(
 	html
 	java-editor
 	java-hints
+	java-hints-declarative
 	java-j2seproject
 	java-j2sedeploy
 	xml-text
