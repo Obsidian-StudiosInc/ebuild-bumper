@@ -1,7 +1,7 @@
 
 REPO="/usr/portage/local/os-xtoo"
 
-CAT="dev-java"
+CAT="nb-plugins"
 BASE="net-java"
 DEPS=""
 
