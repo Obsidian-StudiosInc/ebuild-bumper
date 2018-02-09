@@ -9,5 +9,6 @@ DEPS=""
 PKGS=(
 	jaxb-core
 	txw2
+	xsom
 	xjc
 )
