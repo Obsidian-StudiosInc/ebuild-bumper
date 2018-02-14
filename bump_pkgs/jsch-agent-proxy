@@ -10,7 +10,6 @@ PKGS=(
 	core
 	jsch
 	sshj
-	pageant
 	sshagent
 	usocket-jna
 	usocket-nc
