@@ -8,7 +8,5 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	core
-	generator
-	integration
 	library
 )
