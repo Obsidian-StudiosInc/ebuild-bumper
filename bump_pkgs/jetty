@@ -7,11 +7,11 @@ DEPS="jetty-alpn-api"
 
 #Packages, order matters
 PKGS=(
-	start
 	websocket-api
 	util
 	continuation
 	io
+	start
 	websocket-common
 	http
 	jmx
