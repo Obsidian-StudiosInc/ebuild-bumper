@@ -7,8 +7,8 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
-	jaxb-core
 	txw2
-	xsom
-	xjc
+	jaxb-runtime
+	jaxb-xsom
+	jaxb-xjc
 )
