@@ -20,7 +20,6 @@ PKGS=(
 	websocket-client
 	server
 	http-spi
-	monitor
 	nosql
         proxy
 	fcgi-client
