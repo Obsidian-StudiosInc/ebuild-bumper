@@ -7,7 +7,7 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
-	util
+	utils
 	collections
 	concurrent
 	executor
