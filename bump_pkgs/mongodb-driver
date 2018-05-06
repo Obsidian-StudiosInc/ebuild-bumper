@@ -11,6 +11,5 @@ PKGS=(
 	mongodb-driver-core
 	mongodb-driver-async
 	mongodb-driver-sync
-	mongodb-driver
 	mongodb-driver-legacy
 )
