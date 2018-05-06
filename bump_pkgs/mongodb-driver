@@ -10,5 +10,6 @@ PKGS=(
 	bson
 	mongodb-driver-core
 	mongodb-driver-async
+	mongodb-driver-sync
 	mongodb-driver
 )
