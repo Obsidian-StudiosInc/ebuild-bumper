@@ -43,7 +43,6 @@ PKGS=(
 	core-variables
 	compare-core
 	debug-core
-	mylyn-commons-core
 	team-core
 	help
 	jdt-core
