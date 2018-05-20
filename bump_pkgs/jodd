@@ -10,6 +10,5 @@ PKGS=(
 	core
 	props
 	bean
-	upload
 	servlet
 )
