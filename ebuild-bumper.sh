@@ -141,10 +141,14 @@ merge_deps() {
 
 bump() {
 	# Bump packages, order matters
-	local pkg
+	local i
+
+	PKGS=( "${PKGS[@]:${RESUME}}" )
 	# shellcheck disable=SC2153
-	for pkg in "${PKGS[@]:${RESUME}}"; do
-		local my_cat my_pn my_p
+	for i in "${!PKGS[@]}"; do
+		local my_cat my_pn my_p pkg
+
+		pkg="${PKGS[${i}]}"
 		my_cat="${CAT}"
 		my_pn="${BASE}${pkg#*/}"
 		my_p="${my_pn}-${NPV}"
@@ -156,6 +160,8 @@ bump() {
 
 		# if bumped skip
 		[[ -e ${my_p}.ebuild ]] && continue
+
+		echo "Bumping ${i} of ${#PKGS[@]} packages"
 
 		# if 9999 exists create symlink, copy otherwise
 		if [[ -f ${my_pn}-9999.ebuild ]] && [[  -L "${my_pn}-${OPV}.ebuild" ]]; then
@@ -245,7 +251,7 @@ remove() {
 	done
 }
 
-[[ ! ${PKGS} ]] && help "Missing packages to bump, package file?" 1
+[[ ! ${PKGS[0]} ]] && help "Missing packages to bump, package file?" 1
 [[ ! ${RESUME} ]] && RESUME=0
 
 # Remove packages before bump
