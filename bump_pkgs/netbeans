@@ -236,7 +236,6 @@ PKGS=(
 	debugger-jpda-visual
 	form
 	form-nb
-	form-binding
 	form-refactoring
 	i18n
 	junit
