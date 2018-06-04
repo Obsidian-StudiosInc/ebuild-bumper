@@ -161,7 +161,8 @@ bump() {
 		# if bumped skip
 		[[ -e ${my_p}.ebuild ]] && continue
 
-		echo "Bumping ${i} of ${#PKGS[@]} packages"
+		[[ ${#PKGS[@]} -gt 1 ]] && \
+			echo "Bumping $((i + 1)) of ${#PKGS[@]} packages"
 
 		# if 9999 exists create symlink, copy otherwise
 		if [[ -f ${my_pn}-9999.ebuild ]] && [[  -L "${my_pn}-${OPV}.ebuild" ]]; then
@@ -186,8 +187,8 @@ bump() {
 			"${my_cat}/${my_pn}: Bump ${OPV} -> ${NPV}" \
 			|| exit 1
 		# ensure repoman did not miss files in commit
-		git add .
-		git commit --amend --no-edit
+#		git add .
+#		git commit --amend --no-edit
 	done
 }
 
