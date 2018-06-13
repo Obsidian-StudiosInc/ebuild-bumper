@@ -25,5 +25,6 @@ PKGS=(
 	jvm-services
 	core
 	tooling-api
+	version-control
 	launcher
 )
