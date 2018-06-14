@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	core
 	plugin-java
+	plugin-xml
 )
