@@ -10,5 +10,6 @@ PKGS=(
 	core
 	plugin-java
 	plugin-xml
+	plugin-xpp3
 	plugin-xsd
 )
