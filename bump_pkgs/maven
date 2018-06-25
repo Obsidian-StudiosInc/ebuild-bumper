@@ -10,5 +10,6 @@ PKGS=(
 	artifact
 	builder-support
 	model
+	plugin-api
 	settings
 )
