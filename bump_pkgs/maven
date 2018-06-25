@@ -13,5 +13,6 @@ PKGS=(
 	model-builder
 	plugin-api
 	repository-metadata
+	resolver-provider
 	settings
 )
