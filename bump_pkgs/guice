@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	guice
 	guice-extensions-assistedinject
+	guice-servlet
 )
