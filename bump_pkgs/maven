@@ -15,4 +15,5 @@ PKGS=(
 	repository-metadata
 	resolver-provider
 	settings
+	settings-builder
 )
