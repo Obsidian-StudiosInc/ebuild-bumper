@@ -12,5 +12,6 @@ PKGS=(
 	model
 	model-builder
 	plugin-api
+	repository-metadata
 	settings
 )
