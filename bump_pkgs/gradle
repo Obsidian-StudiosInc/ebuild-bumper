@@ -27,5 +27,6 @@ PKGS=(
 	resources-http
 	tooling-api
 	version-control
+	dependency-management
 	launcher
 )
