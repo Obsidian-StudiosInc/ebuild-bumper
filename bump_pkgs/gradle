@@ -24,6 +24,7 @@ PKGS=(
 	core-api
 	jvm-services
 	core
+	reporting
 	resources-http
 	tooling-api
 	version-control
