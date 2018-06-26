@@ -31,4 +31,5 @@ PKGS=(
 	dependency-management
 	launcher
 	platform-base
+	diagnostics
 )
