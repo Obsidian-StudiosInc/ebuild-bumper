@@ -16,4 +16,5 @@ PKGS=(
 	resolver-provider
 	settings
 	settings-builder
+	core
 )
