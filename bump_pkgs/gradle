@@ -29,4 +29,5 @@ PKGS=(
 	version-control
 	dependency-management
 	launcher
+	platform-base
 )
