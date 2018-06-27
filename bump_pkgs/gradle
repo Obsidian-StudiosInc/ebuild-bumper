@@ -35,4 +35,5 @@ PKGS=(
 	diagnostics
 	platform-jvm
 	language-jvm
+	language-java
 )
