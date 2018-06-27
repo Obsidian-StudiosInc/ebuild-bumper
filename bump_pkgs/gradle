@@ -40,4 +40,5 @@ PKGS=(
 	language-java
 	language-groovy
 	plugins
+	build-init
 )
