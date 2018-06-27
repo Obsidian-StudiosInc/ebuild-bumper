@@ -35,6 +35,7 @@ PKGS=(
 	diagnostics
 	platform-jvm
 	testing-base
+	testing-jvm
 	language-jvm
 	language-java
 )
