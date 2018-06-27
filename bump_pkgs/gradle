@@ -39,4 +39,5 @@ PKGS=(
 	language-jvm
 	language-java
 	language-groovy
+	plugins
 )
