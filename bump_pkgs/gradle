@@ -32,4 +32,5 @@ PKGS=(
 	launcher
 	platform-base
 	diagnostics
+	platform-jvm
 )
