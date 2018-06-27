@@ -1,8 +1,8 @@
 
 REPO="/usr/portage/local/os-xtoo"
 
-CAT="dev-java"
-BASE="gradle-"
+CAT=""
+BASE=""
 DEPS=""
 
 #Packages, order matters
@@ -42,3 +42,5 @@ PKGS=(
 	plugins
 	build-init
 )
+
+PKGS=( ${PKGS[@]/#/dev-java/gradle-} dev-util/gradle )
