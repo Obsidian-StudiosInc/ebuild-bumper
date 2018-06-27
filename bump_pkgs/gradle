@@ -38,4 +38,5 @@ PKGS=(
 	testing-jvm
 	language-jvm
 	language-java
+	language-groovy
 )
