@@ -36,6 +36,7 @@ PKGS=(
 	composite-builds
 	launcher
 	platform-base
+	publish
 	diagnostics
 	platform-jvm
 	testing-base
