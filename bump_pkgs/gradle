@@ -24,6 +24,7 @@ PKGS=(
 	core-api
 	jvm-services
 	core
+	announce
 	reporting
 	resources-http
 	tooling-api
