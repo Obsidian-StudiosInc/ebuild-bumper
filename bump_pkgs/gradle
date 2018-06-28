@@ -27,6 +27,7 @@ PKGS=(
 	announce
 	reporting
 	resources-http
+	build-cache-http
 	tooling-api
 	version-control
 	workers
