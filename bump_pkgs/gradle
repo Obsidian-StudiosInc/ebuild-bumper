@@ -33,6 +33,7 @@ PKGS=(
 	version-control
 	workers
 	dependency-management
+	composite-builds
 	launcher
 	platform-base
 	diagnostics
