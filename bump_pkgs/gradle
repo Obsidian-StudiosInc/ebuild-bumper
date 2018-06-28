@@ -44,6 +44,7 @@ PKGS=(
 	plugins
 	build-init
 	ear
+	build-comparison
 )
 
 PKGS=( ${PKGS[@]/#/dev-java/gradle-} dev-util/gradle )
