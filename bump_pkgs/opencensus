@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="opencensus-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	api
+	contrib-grpc-metrics
+)
