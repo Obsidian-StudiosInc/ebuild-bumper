@@ -43,6 +43,7 @@ PKGS=(
 	language-groovy
 	plugins
 	build-init
+	ear
 )
 
 PKGS=( ${PKGS[@]/#/dev-java/gradle-} dev-util/gradle )
