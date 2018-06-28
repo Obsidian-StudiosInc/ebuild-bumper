@@ -38,6 +38,7 @@ PKGS=(
 	platform-base
 	publish
 	diagnostics
+	ivy
 	platform-jvm
 	testing-base
 	testing-jvm
