@@ -37,6 +37,7 @@ PKGS=(
 	dependency-management
 	composite-builds
 	platform-base
+	plugin-use
 	publish
 	diagnostics
 	ivy
