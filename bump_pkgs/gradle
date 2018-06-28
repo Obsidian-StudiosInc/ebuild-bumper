@@ -51,6 +51,7 @@ PKGS=(
 	build-init
 	ear
 	build-comparison
+	osgi
 )
 
 PKGS=( ${PKGS[@]/#/dev-java/gradle-} dev-util/gradle )
