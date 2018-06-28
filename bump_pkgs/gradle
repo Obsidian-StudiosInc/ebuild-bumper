@@ -10,6 +10,7 @@ PKGS=(
 	base-services
 	base-services-groovy
 	cli
+	installation-beacon
 	wrapper
 	build-option
 	model-core
