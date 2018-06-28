@@ -40,6 +40,7 @@ PKGS=(
 	platform-jvm
 	testing-base
 	testing-jvm
+	tooling-api-builders
 	language-jvm
 	language-java
 	language-groovy
