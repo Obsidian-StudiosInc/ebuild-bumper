@@ -30,11 +30,11 @@ PKGS=(
 	resources-http
 	build-cache-http
 	tooling-api
+	launcher
 	version-control
 	workers
 	dependency-management
 	composite-builds
-	launcher
 	platform-base
 	publish
 	diagnostics
