@@ -47,6 +47,7 @@ PKGS=(
 	language-java
 	language-groovy
 	plugins
+	antlr
 	build-init
 	ear
 	build-comparison
