@@ -42,6 +42,7 @@ PKGS=(
 	diagnostics
 	ivy
 	platform-jvm
+	platform-native
 	testing-base
 	testing-jvm
 	tooling-api-builders
