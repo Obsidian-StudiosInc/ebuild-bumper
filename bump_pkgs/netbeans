@@ -272,6 +272,7 @@ PKGS=(
 	apisupport-ant
 	apisupport-refactoring
 	apisupport-wizards
+	apisupport-kit
 	parsing-nb
 	spellchecker
 	team-commons
