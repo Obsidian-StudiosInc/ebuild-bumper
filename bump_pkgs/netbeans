@@ -203,6 +203,7 @@ PKGS=(
 	o-apache-tools-ant-module
 	ant-freeform
 	ant-grammar
+	apisupport-installer
 	java-testrunner-ant
 	options-editor
 	diff
