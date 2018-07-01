@@ -7,7 +7,6 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
-	ant-kit
 	classfile
 	core-kit
 	editor-util
@@ -302,5 +301,6 @@ PKGS=(
 	extbrowser
 	web-browser-api
 	ant-browsetask
+	ant-kit
 	css-visual
 )
