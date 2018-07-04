@@ -134,6 +134,7 @@ PKGS=(
 	java-platform-ui
 	javahelp
 	languages-diff
+	languages-manifest
 	properties
 	project-libraries-ui
 	project-spi-intern-impl
