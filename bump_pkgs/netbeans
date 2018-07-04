@@ -133,6 +133,7 @@ PKGS=(
 	favorites
 	java-platform-ui
 	javahelp
+	languages-diff
 	properties
 	project-libraries-ui
 	project-spi-intern-impl
