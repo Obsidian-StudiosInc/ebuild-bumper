@@ -305,4 +305,5 @@ PKGS=(
 	ant-browsetask
 	ant-kit
 	css-visual
+	editor-kit
 )
