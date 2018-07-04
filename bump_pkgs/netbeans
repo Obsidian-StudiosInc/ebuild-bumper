@@ -253,6 +253,7 @@ PKGS=(
 	web-common-ui
 	whitelist
 	csl-api
+	languages-yaml
 	css-lib
 	editor-indent-project
 	gsf-codecoverage
