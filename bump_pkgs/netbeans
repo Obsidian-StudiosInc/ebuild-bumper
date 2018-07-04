@@ -143,6 +143,7 @@ PKGS=(
 	server
 	settings
 	spi-navigator
+	image
 	spi-viewmodel
 	spi-debugger-jpda-ui
 	utilities
