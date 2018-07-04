@@ -8,7 +8,6 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	classfile
-	core-kit
 	editor-util
 	java-kit
 	junitlib
@@ -300,6 +299,7 @@ PKGS=(
 	core-windows
 	core-multitabs
 	core-multitabs-project
+	core-kit
 	extbrowser
 	web-browser-api
 	ant-browsetask
