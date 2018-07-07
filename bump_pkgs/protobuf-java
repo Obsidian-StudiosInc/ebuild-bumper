@@ -7,7 +7,6 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
-	nano
 	core
 	util
 )
