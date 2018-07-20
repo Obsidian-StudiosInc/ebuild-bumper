@@ -5,7 +5,7 @@
 #
 # Distributed under the terms of The GNU Public License v3.0 (GPLv3)
 
-VERSION="Version 0.7"
+VERSION="Version 0.8"
 
 help() {
 	local me
