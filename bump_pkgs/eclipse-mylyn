@@ -2,7 +2,7 @@
 REPO="/usr/portage/local/os-xtoo"
 
 CAT="dev-java"
-BASE="eclipse-mylyn"
+BASE="eclipse-mylyn-"
 DEPS=""
 
 #Packages, order matters
