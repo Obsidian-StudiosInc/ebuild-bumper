@@ -8,7 +8,6 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	utils
-	osgi-resource-locator
 	api
 	extras
 	jmx
