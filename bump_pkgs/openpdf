@@ -8,7 +8,6 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	openpdf
-	openpdf-rtf
 	openpdf-xml
 	openpdf-html
 	openpdf-swing
