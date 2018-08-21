@@ -175,7 +175,6 @@ PKGS=(
 	parsing-ui
 	properties-syntax
 	spi-debugger-ui
-	ant-debugger
 	web-indent
 	xml-retriever
 	spi-editor-hints	
@@ -204,6 +203,7 @@ PKGS=(
 	jumpto
 	languages
 	o-apache-tools-ant-module
+	ant-debugger
 	ant-freeform
 	ant-grammar
 	apisupport-installer
