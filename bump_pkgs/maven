@@ -10,6 +10,7 @@ PKGS=(
 	artifact
 	builder-support
 	model
+	slf4j-provider
 	model-builder
 	plugin-api
 	repository-metadata
