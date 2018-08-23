@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	maven-wagon-provider-api
 	wagon-file
+	wagon-http-shared
 )
