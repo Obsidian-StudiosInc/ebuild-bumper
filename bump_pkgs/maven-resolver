@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="maven-resolver-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	api
+	util
+)
