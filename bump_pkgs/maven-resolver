@@ -11,4 +11,5 @@ PKGS=(
 	spi
 	util
 	impl
+	transport-wagon
 )
