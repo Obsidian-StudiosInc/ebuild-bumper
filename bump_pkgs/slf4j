@@ -9,6 +9,7 @@ DEPS=""
 PKGS=(
 	api
 	ext
+	jcl-over-slf4j
 	jul-to-slf4j
 	log4j12
 	nop
