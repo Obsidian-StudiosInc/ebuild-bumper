@@ -10,4 +10,5 @@ PKGS=(
 	provider-api
 	file
 	http-shared
+	http
 )
