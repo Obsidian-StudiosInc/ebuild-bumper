@@ -2,12 +2,12 @@
 REPO="/usr/portage/local/os-xtoo"
 
 CAT="dev-java"
-BASE=""
+BASE="wagon-"
 DEPS=""
 
 #Packages, order matters
 PKGS=(
-	maven-wagon-provider-api
-	wagon-file
-	wagon-http-shared
+	provider-api
+	file
+	http-shared
 )
