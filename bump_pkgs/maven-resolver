@@ -10,6 +10,7 @@ PKGS=(
 	api
 	spi
 	util
+	connector-basic
 	impl
 	transport-wagon
 )
