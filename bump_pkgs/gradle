@@ -18,9 +18,9 @@ PKGS=(
 	messaging
 	native
 	logging
-	persistent-cache
 	process-services
 	resources
+	persistent-cache
 	build-cache
 	core-api
 	jvm-services
