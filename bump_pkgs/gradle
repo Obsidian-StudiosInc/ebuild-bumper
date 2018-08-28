@@ -32,9 +32,9 @@ PKGS=(
 	tooling-api
 	launcher
 	test-kit
-	version-control
 	workers
 	dependency-management
+	version-control
 	composite-builds
 	platform-base
 	plugin-use
