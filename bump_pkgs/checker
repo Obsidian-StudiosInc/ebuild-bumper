@@ -7,7 +7,6 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
-	compatqual
 	qual
 	javacutil
 	dataflow
