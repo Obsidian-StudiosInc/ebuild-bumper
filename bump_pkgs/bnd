@@ -10,6 +10,7 @@ PKGS=(
 	bnd-annotation
         libg
         bndlib
+	bnd-exporters
 	aqute-remote
         aqute-repository
         aqute-resolve
