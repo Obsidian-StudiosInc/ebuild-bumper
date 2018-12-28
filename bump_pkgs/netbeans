@@ -8,7 +8,6 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	classfile
-	editor-util
 	java-kit
 	junitlib
 	ide
@@ -26,6 +25,7 @@ PKGS=(
 	openide-filesystems
 	openide-filesystems-nb
 	core-browser
+	editor-util
 	j2ee-metadata
 	lexer
 	lib-terminalemulator
