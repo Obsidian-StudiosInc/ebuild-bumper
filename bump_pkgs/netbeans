@@ -10,7 +10,6 @@ PKGS=(
 	classfile
 	java-kit
 	junitlib
-	ide
 	ide-kit
 	lib-nbjavac
 	libs-asm
