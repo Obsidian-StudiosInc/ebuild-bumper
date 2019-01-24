@@ -2,7 +2,7 @@
 REPO="/usr/portage/local/os-xtoo"
 
 CAT="dev-java"
-BASE="eclipse-emf"
+BASE="eclipse-emf-"
 DEPS=""
 
 #Packages, order matters
