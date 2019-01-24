@@ -21,7 +21,6 @@ PKGS=(
 	core-databinding-observable
 	core-databinding-property
 	core-databinding
-	text
 	equinox-util
 	core-jobs
 	equinox-registry
@@ -44,6 +43,7 @@ PKGS=(
 	compare-core
 	debug-core
 	team-core
+	text
 	help
 	jdt-core
 	jdt-debug
