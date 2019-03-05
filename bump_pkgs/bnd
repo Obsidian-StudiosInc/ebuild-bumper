@@ -11,6 +11,7 @@ PKGS=(
         libg
         bndlib
 	bnd-exporters
+	bnd-reporter
 	aqute-remote
         aqute-repository
         aqute-resolve
