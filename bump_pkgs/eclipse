@@ -25,7 +25,6 @@ PKGS=(
 	core-jobs
 	equinox-registry
 	e4-ui-css-core
-	e4-ui-workbench3
 	equinox-bidi
 	equinox-app
 	equinox-preferences
@@ -42,6 +41,7 @@ PKGS=(
 	core-variables
 	compare-core
 	debug-core
+	e4-ui-workbench3
 	team-core
 	text
 	help
