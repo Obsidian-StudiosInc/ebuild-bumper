@@ -50,6 +50,7 @@ PKGS=(
 	api-intent
 	api-io
 	api-java-classpath
+	api-scripting
 	api-templates
 	editor-mimelookup
 	editor-mimelookup-impl
