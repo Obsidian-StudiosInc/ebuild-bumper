@@ -38,6 +38,7 @@ PKGS=(
 	api-visual
 	editor-tools-storage
 	extexecution-base
+	j2ee-core
 	java-graph
 	openide-awt
 	project-spi-intern
