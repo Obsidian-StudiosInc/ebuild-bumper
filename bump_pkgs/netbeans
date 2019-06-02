@@ -32,6 +32,7 @@ PKGS=(
 	libs-jsch-agentproxy
 	libs-git
 	project-indexingbridge
+	schema2beans
 	spi-actions
 	java-lexer
 	api-annotations-common
