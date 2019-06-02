@@ -239,6 +239,7 @@ PKGS=(
 	j2ee-dd
 	j2ee-persistenceapi
 	j2eeserver
+	api-web-webmodule
 	debugger-jpda
 	debugger-jpda-ant
 	debugger-jpda-ui
