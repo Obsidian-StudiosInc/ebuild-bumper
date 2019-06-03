@@ -145,6 +145,7 @@ PKGS=(
 	projectuiapi
 	projectui
 	project-ant-ui
+	dbschema
 	sampler
 	server
 	settings
