@@ -11,4 +11,5 @@ PKGS=(
 	asm
 	jpa-jpql
 	core
+	jpa
 )
