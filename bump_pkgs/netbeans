@@ -133,6 +133,7 @@ PKGS=(
 	api-search
 	api-xml-ui
 	core-ide
+	db
 	favorites
 	java-platform-ui
 	javahelp
