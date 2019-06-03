@@ -291,6 +291,7 @@ PKGS=(
 	apisupport-refactoring
 	apisupport-wizards
 	apisupport-kit
+	j2ee-persistence
 	parsing-nb
 	spellchecker
 	team-commons
