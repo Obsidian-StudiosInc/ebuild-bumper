@@ -293,6 +293,7 @@ PKGS=(
 	apisupport-wizards
 	apisupport-kit
 	j2ee-persistence
+	javaee-specs-support
 	parsing-nb
 	spellchecker
 	team-commons
