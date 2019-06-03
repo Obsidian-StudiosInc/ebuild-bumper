@@ -9,4 +9,5 @@ DEPS=""
 PKGS=(
 	antlr
 	asm
+	jpa-jpql
 )
