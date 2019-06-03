@@ -294,6 +294,7 @@ PKGS=(
 	apisupport-kit
 	j2ee-persistence
 	javaee-specs-support
+	j2ee-common
 	parsing-nb
 	spellchecker
 	team-commons
