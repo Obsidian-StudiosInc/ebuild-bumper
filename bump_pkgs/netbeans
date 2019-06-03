@@ -134,6 +134,7 @@ PKGS=(
 	api-xml-ui
 	core-ide
 	db
+	dbapi
 	favorites
 	java-platform-ui
 	javahelp
