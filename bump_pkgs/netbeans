@@ -35,6 +35,7 @@ PKGS=(
 	project-indexingbridge
 	schema2beans
 	spi-actions
+	websvc-wsstackapi
 	java-lexer
 	api-annotations-common
 	api-visual
