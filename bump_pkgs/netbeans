@@ -24,6 +24,7 @@ PKGS=(
 	openide-filesystems
 	openide-filesystems-nb
 	core-browser
+	db-metadata-model
 	editor-util
 	j2ee-metadata
 	lexer
