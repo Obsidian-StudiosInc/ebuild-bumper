@@ -150,6 +150,7 @@ PKGS=(
 	image
 	spi-viewmodel
 	spi-debugger-jpda-ui
+	target-iterator
 	utilities
 	utilities-project
 	xml-catalog-ui
