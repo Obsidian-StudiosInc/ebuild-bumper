@@ -240,6 +240,7 @@ PKGS=(
 	j2ee-persistenceapi
 	j2eeserver
 	api-web-webmodule
+	web-jspparser
 	debugger-jpda
 	debugger-jpda-ant
 	debugger-jpda-ui
