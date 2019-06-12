@@ -242,14 +242,15 @@ clean() {
 }
 
 remove() {
-	local RPKGS pkg
+	local RPKGS pkg rm_pkgs
 	# shellcheck disable=SC2207
 	RPKGS=( $( echo "${PKGS[@]}" | tac -s ' ' ) )
 	for pkg in "${RPKGS[@]}"; do
 		local my_cat="${CAT}"
 		[[ ! "${my_cat}" ]] && my_cat="${pkg%/*}"
-		sudo emerge -qC "${my_cat}/${BASE}${pkg#*/}"
+		rm_pkgs+=( "${my_cat}/${BASE}${pkg#*/}" )
 	done
+	sudo emerge -qC "${rm_pkgs[@]}"
 }
 
 [[ ! ${PKGS[0]} ]] && help "Missing packages to bump, package file?" 1
