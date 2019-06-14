@@ -26,6 +26,7 @@ PKGS=(
 	files
 	snapshots
 	build-cache-packaging
+	execution
 	jvm-services
 	core
 	announce
