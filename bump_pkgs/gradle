@@ -24,6 +24,7 @@ PKGS=(
 	model-groovy
 	build-cache
 	files
+	snapshots
 	jvm-services
 	core
 	announce
