@@ -23,6 +23,7 @@ PKGS=(
 	model-core
 	model-groovy
 	build-cache
+	files
 	jvm-services
 	core
 	announce
