@@ -13,16 +13,16 @@ PKGS=(
 	installation-beacon
 	wrapper
 	build-option
-	model-core
-	model-groovy
 	messaging
 	native
 	logging
 	process-services
 	resources
 	persistent-cache
-	build-cache
 	core-api
+	model-core
+	model-groovy
+	build-cache
 	jvm-services
 	core
 	announce
