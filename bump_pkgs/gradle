@@ -39,9 +39,9 @@ PKGS=(
 	workers
 	dependency-management
 	version-control
-	composite-builds
 	platform-base
 	plugin-use
+	composite-builds
 	publish
 	diagnostics
 	ivy
