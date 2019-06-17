@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="nb-plugins"
+BASE="netbeans-gradle-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	default-models
+	plugin
+)
