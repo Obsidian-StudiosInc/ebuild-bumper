@@ -13,6 +13,7 @@ PKGS=(
 	connectors-netty
 	core-server
 	container-jetty-http
+	container-netty-http
 	entity-filtering
 	inject-hk2
 	media-json-jackson
