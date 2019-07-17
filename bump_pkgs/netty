@@ -11,6 +11,7 @@ PKGS=(
 	buffer
 	resolver
 	transport
+	transport-native-unix-common
 	codec
 	handler
 	codec-dns
