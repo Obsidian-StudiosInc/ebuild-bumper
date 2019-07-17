@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="zookeeper-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	jute
+	server
+)
