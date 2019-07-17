@@ -12,6 +12,7 @@ PKGS=(
 	resolver
 	transport
 	transport-native-unix-common
+	transport-native-epoll
 	codec
 	handler
 	codec-dns
