@@ -1,0 +1,13 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="simple-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	common
+	transport
+	http
+)
