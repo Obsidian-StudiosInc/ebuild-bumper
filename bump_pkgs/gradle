@@ -57,6 +57,7 @@ PKGS=(
 	build-init
 	ear
 	ivy
+	javascript
 	build-comparison
 	osgi
 )
