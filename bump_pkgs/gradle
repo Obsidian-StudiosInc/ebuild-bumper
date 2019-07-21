@@ -32,6 +32,7 @@ PKGS=(
 	announce
 	reporting
 	resources-http
+	resources-sftp
 	build-cache-http
 	tooling-api
 	launcher
