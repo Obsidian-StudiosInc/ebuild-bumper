@@ -1,8 +1,8 @@
 
 REPO="/usr/portage/local/os-xtoo"
 
-CAT="nb-ide"
-BASE="netbeans-"
+CAT=""
+BASE=""
 DEPS=""
 
 #Packages, order matters
@@ -331,3 +331,5 @@ PKGS=(
 	css-visual
 	editor-kit
 )
+
+PKGS=( ${PKGS[@]/#/nb-ide/netbeans-} dev-util/netbeans )
