@@ -7,6 +7,7 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
+	pineapple
 	base-services
 	base-services-groovy
 	cli
