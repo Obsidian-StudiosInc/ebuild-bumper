@@ -8,6 +8,7 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	pineapple
+	files
 	hashing
 	base-services
 	base-services-groovy
@@ -25,7 +26,6 @@ PKGS=(
 	model-core
 	model-groovy
 	build-cache
-	files
 	snapshots
 	build-cache-packaging
 	execution
