@@ -14,6 +14,7 @@ PKGS=(
 	base-services-groovy
 	cli
 	installation-beacon
+	snapshots
 	wrapper
 	build-option
 	messaging
@@ -26,7 +27,6 @@ PKGS=(
 	model-core
 	model-groovy
 	build-cache
-	snapshots
 	build-cache-packaging
 	execution
 	jvm-services
