@@ -34,6 +34,7 @@ PKGS=(
 	jvm-services
 	core
 	announce
+	bootstrap
 	reporting
 	resources-http
 	resources-sftp
