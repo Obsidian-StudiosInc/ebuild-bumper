@@ -29,6 +29,7 @@ PKGS=(
 	build-cache
 	build-cache-packaging
 	execution
+	file-collections
 	jvm-services
 	core
 	announce
