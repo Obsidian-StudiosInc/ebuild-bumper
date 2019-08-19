@@ -22,6 +22,7 @@ PKGS=(
 	logging
 	process-services
 	resources
+	worker-processes
 	persistent-cache
 	core-api
 	model-core
