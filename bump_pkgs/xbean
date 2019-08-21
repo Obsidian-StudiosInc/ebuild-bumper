@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="xbean-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	bundleutils
+	reflect
+)
