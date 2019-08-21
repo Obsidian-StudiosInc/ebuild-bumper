@@ -9,5 +9,6 @@ DEPS=""
 PKGS=(
 	asm-util
 	bundleutils
+	finder
 	reflect
 )
