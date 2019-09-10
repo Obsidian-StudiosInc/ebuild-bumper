@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE=""
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	incap
+	incap-processor
+)
