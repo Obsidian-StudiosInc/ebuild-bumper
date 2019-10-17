@@ -52,6 +52,7 @@ PKGS=(
 	jface-databinding
 	jface-text
 	core-filebuffers
+	e4-ui-dialogs
 	ltk-core-refactoring
 	jdt-core-manipulation
 	e4-emf-xpath
