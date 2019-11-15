@@ -33,7 +33,6 @@ PKGS=(
 	file-collections
 	jvm-services
 	core
-	announce
 	bootstrap
 	reporting
 	resources-http
