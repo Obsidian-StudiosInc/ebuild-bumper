@@ -64,7 +64,6 @@ PKGS=(
 	ivy
 	jacoco
 	javascript
-	osgi
 )
 
 PKGS=( ${PKGS[@]/#/dev-java/gradle-} dev-util/gradle )
