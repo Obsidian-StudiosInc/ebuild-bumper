@@ -39,6 +39,7 @@ PKGS=(
 	resources-sftp
 	build-cache-http
 	tooling-api
+	build-events
 	launcher
 	test-kit
 	workers
