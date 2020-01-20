@@ -8,6 +8,7 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	groovy
+	groovy-cli-commons
 	groovy-json
 	groovy-xml
 	groovy-templates
