@@ -9,6 +9,7 @@ DEPS=""
 PKGS=(
 	groovy
 	groovy-cli-commons
+	groovy-cli-picocli
 	groovy-json
 	groovy-xml
 	groovy-templates
