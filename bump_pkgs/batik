@@ -13,4 +13,5 @@ PKGS=(
 	util
 	css
 	xml
+	dom
 )
