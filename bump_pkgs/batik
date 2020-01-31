@@ -11,4 +11,5 @@ PKGS=(
 	i18n
 	util
 	css
+	xml
 )
