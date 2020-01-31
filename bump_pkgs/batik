@@ -17,4 +17,5 @@ PKGS=(
 	dom
 	parser
 	svg-dom
+	anim
 )
