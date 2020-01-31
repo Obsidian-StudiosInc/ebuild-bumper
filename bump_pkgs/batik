@@ -22,5 +22,6 @@ PKGS=(
 	anim
 	script
 	bridge
+	extension
 	transcoder
 )
