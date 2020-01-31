@@ -15,4 +15,5 @@ PKGS=(
 	css
 	xml
 	dom
+	parser
 )
