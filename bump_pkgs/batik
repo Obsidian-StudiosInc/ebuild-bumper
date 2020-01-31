@@ -10,4 +10,5 @@ PKGS=(
 	constants
 	i18n
 	util
+	css
 )
