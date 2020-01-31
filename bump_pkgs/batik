@@ -13,6 +13,7 @@ PKGS=(
 	util
 	awt-util
 	css
+	gvt
 	xml
 	dom
 	parser
