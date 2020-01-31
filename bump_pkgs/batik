@@ -16,4 +16,5 @@ PKGS=(
 	xml
 	dom
 	parser
+	svg-dom
 )
