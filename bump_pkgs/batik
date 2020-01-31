@@ -1,0 +1,12 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="batik-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	constants
+	i18n
+)
