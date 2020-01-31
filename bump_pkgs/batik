@@ -20,4 +20,5 @@ PKGS=(
 	svg-dom
 	anim
 	script
+	bridge
 )
