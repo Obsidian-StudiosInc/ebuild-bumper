@@ -19,10 +19,10 @@ PKGS=(
 	dev-java/tomcat-jasper-el
 	dev-java/tomcat-util-scan
 	dev-java/tomcat-coyote
+	dev-java/tomcat-catalina-tribes
 	dev-java/tomcat-catalina
 	dev-java/tomcat-bootstrap
 	dev-java/tomcat-catalina-ant
-	dev-java/tomcat-catalina-tribes
 	dev-java/tomcat-catalina-ha
 	dev-java/tomcat-catalina-storeconfig
 	dev-java/tomcat-jasper
