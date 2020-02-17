@@ -33,6 +33,7 @@ PKGS=(
 	execution
 	file-collections
 	jvm-services
+	security
 	core
 	bootstrap
 	reporting
