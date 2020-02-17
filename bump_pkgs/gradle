@@ -12,6 +12,7 @@ PKGS=(
 	hashing
 	base-services
 	base-services-groovy
+	build-cache-base
 	cli
 	installation-beacon
 	snapshots
