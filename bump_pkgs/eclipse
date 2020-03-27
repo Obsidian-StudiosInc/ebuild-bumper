@@ -41,6 +41,7 @@ PKGS=(
 	core-variables
 	compare-core
 	debug-core
+        e4-ui-ide
 	e4-ui-workbench3
 	team-core
 	text
