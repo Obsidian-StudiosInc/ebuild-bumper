@@ -10,6 +10,7 @@ PKGS=(
 	base-annotations
 	files
 	hashing
+        normalization-java
 	base-services
 	base-services-groovy
 	build-cache-base
