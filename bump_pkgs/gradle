@@ -17,6 +17,7 @@ PKGS=(
 	cli
 	installation-beacon
 	snapshots
+	file-watching
 	wrapper
 	build-option
 	messaging
