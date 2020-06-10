@@ -7,6 +7,7 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
+	codemodel
 	relaxng-datatype
 	rngom
 	txw2
