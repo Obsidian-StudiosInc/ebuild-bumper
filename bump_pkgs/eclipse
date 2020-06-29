@@ -45,6 +45,7 @@ PKGS=(
 	e4-ui-workbench3
 	team-core
 	text
+	urischeme
 	help
 	jdt-core
 	jdt-debug
