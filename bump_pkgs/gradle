@@ -10,7 +10,6 @@ PKGS=(
 	base-annotations
 	files
 	hashing
-        normalization-java
 	base-services
 	base-services-groovy
 	build-cache-base
@@ -18,6 +17,7 @@ PKGS=(
 	installation-beacon
 	snapshots
 	file-watching
+        normalization-java
 	wrapper
 	build-option
 	messaging
