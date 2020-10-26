@@ -8,6 +8,7 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	base-annotations
+	build-operations
 	files
 	hashing
 	base-services
