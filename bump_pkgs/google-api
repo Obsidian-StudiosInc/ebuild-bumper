@@ -1,0 +1,13 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="google-api"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	client
+	client-gson
+	client-jackson2
+)
