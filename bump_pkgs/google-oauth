@@ -1,0 +1,13 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="google-oauth-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	oauth-client
+	oauth-client-java6
+	oauth-client-jetty
+)
