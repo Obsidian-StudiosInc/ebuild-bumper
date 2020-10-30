@@ -7,7 +7,7 @@ DEPS=""
 
 #Packages, order matters
 PKGS=(
-	oauth-client
-	oauth-client-java6
-	oauth-client-jetty
+	client
+	client-java6
+	client-jetty
 )
