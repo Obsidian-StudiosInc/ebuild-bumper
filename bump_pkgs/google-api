@@ -2,7 +2,7 @@
 REPO="/usr/portage/local/os-xtoo"
 
 CAT="dev-java"
-BASE="google-api"
+BASE="google-api-"
 DEPS=""
 
 #Packages, order matters
