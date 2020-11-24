@@ -9,6 +9,7 @@ DEPS="jetty-alpn-api"
 PKGS=(
 	websocket-api
 	util
+	util-ajax
 	continuation
 	io
 	start
