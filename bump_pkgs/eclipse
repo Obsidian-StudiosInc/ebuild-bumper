@@ -52,6 +52,7 @@ PKGS=(
 	jdt-launching
 	jface
 	jface-databinding
+        jface-notifications
 	jface-text
 	core-filebuffers
 	e4-ui-dialogs
