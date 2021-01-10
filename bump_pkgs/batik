@@ -17,6 +17,7 @@ PKGS=(
 	svggen
 	xml
 	dom
+	gui-util
 	parser
 	svg-dom
 	anim
