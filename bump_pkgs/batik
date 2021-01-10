@@ -24,5 +24,6 @@ PKGS=(
 	script
 	bridge
 	extension
+	swing
 	transcoder
 )
