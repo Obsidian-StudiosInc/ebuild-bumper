@@ -1,7 +1,6 @@
 # ebuild-bumper.sh
 [![License](https://img.shields.io/badge/license-GPLv3-9977bb.svg?style=plastic)](https://github.com/Obsidian-StudiosInc/ebuild-bumper/blob/master/LICENSE)
 [![Build Status](https://img.shields.io/travis/Obsidian-StudiosInc/ebuild-bumper/master.svg?colorA=9977bb&style=plastic)](https://travis-ci.org/Obsidian-StudiosInc/ebuild-bumper)
-[![Build Status](https://img.shields.io/shippable/5840e5d7e2ab4d0f0058b4b3/master.svg?colorA=9977bb&style=plastic)](https://app.shippable.com/projects/5840e5d7e2ab4d0f0058b4b3/)
 
 A bash script for version bumping an individual ebuild or groups of 
 ebuilds with the same version. The script can also clean out older 
