@@ -11,6 +11,7 @@ PKGS=(
 	build-operations
 	files
 	hashing
+	problems
 	base-services
 	base-services-groovy
 	build-cache-base
