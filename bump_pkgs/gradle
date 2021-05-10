@@ -71,7 +71,6 @@ PKGS=(
 	ear
 	ivy
 	jacoco
-	javascript
 )
 
 PKGS=( ${PKGS[@]/#/dev-java/gradle-} dev-util/gradle )
