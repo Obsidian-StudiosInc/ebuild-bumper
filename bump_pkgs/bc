@@ -9,6 +9,7 @@ DEPS=""
 PKGS=(
 	prov
 	pg
+	util
 	pkix
 	mail
 )
