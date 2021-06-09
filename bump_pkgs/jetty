@@ -11,11 +11,11 @@ PKGS=(
 	util
 	util-ajax
 	continuation
+	jmx
 	io
 	start
 	websocket-common
 	http
-	jmx
 	xml
 	client
 	websocket-client
