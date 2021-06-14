@@ -16,6 +16,7 @@ PKGS=(
 	base-services-groovy
 	build-cache-base
 	cli
+	data-structures
 	file-temp
 	installation-beacon
 	snapshots
