@@ -10,6 +10,7 @@ PKGS=(
 	base-annotations
 	build-operations
 	files
+	functional
 	hashing
 	problems
 	base-services
