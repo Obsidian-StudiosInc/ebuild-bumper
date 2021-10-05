@@ -9,6 +9,7 @@ DEPS=""
 PKGS=(
 	bnd-annotation
         libg
+        bnd-util
         bndlib
 	bnd-exporters
 	bnd-reporter
