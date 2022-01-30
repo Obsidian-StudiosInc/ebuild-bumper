@@ -8,7 +8,6 @@ DEPS=""
 #Packages, order matters
 PKGS=(
 	antlr
-	asm
 	jpa-jpql
 	core
 	jpa
