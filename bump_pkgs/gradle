@@ -9,6 +9,7 @@ DEPS=""
 PKGS=(
 	base-annotations
 	build-operations
+	enterprise-operations
 	enterprise-workers
 	files
 	functional
