@@ -15,6 +15,7 @@ PKGS=(
 	functional
 	hashing
 	problems
+	worker-services
 	base-services
 	base-services-groovy
 	build-cache-base
