@@ -1,0 +1,13 @@
+
+REPO="/usr/portage/local/os-xtoo"
+
+CAT="dev-java"
+BASE="osgi-"
+DEPS=""
+
+#Packages, order matters
+PKGS=(
+	annotation-versioning
+	util-function
+	util-promise
+)
